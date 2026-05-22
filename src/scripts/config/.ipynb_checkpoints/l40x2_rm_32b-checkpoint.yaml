@@ -1,0 +1,27 @@
+# bash scripts/serve_models.sh scripts/config/l40x2_rm_32b.yaml
+# bash scripts/serve_models.sh scripts/config/l40x2_rm_32b.yaml --stop
+
+controller:
+  host: 0.0.0.0          # ← 对应 HOST_ADDR
+  port: 21001            # ← 对应 CONTROLLER_PORT
+  worker_base_port: 10081
+
+reward_models:
+  - path: /root/autodl-pub/Skywork-o1-Open-PRM-Qwen-2.5-1.5B       
+    gpu: 0                              
+    gpu_memory_utilization: 0.10        
+    max_model_length: 4096
+    swap_space: 16
+
+policy_models:
+  - path: /root/autodl-pub/policy_models/Qwen3-32B    
+    gpu: [0, 1]                          
+    gpu_memory_utilization: 0.73         
+    max_model_length: 4096
+    swap_space: 16
+
+defaults:
+  python: ~/miniconda3/envs/tts/bin/python   
+  session_prefix: tts                   
+  max_model_length: 4096
+  swap_space: 16

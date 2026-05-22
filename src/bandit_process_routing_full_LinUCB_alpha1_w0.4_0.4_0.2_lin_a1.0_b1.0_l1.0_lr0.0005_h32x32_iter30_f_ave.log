@@ -1,0 +1,1688 @@
+Bandit Processing Log - Algorithm: lin_ucb - Full Matrix
+================================================================================
+[Run Start] 2026-03-24 16:45:13
+[Run End] 2026-03-24 16:45:20
+[Run Summary] Total Problems: 210
+[Run Summary] Total Runtime: 7.65 seconds (0.13 minutes)
+================================================================================
+
+Problem ID: 1/210 (QueryID: test_aime_question38)
+Algorithm: lin_ucb, Diagonal: False
+Selected Model: qwen3-1.7b, QP: 1, CP: 4, BS: 2, Tokens: 4134
+Reward: 0.2156 (Acc=0.00*w0.4, Ver=0.14*w0.4, eFLOPs=1.86e+13*w0.2)
+eFLOPs_raw: 1.8564e+13, Normalized eFLOPs: 0.2055, CSV_Line: 4979
+Avg Reward: 0.2156, Training Loss: 0, Cache Hit: True
+Answer: OfflineAnswer | Ground Truth: None
+--------------------------------------------------------------------------------
+Problem ID: 2/210 (QueryID: test150_question146)
+Algorithm: lin_ucb, Diagonal: False
+Selected Model: qwen3-4b, QP: 1, CP: 2, BS: 1, Tokens: 99
+Reward: 0.9184 (Acc=1.00*w0.4, Ver=0.99*w0.4, eFLOPs=1.35e+14*w0.2)
+eFLOPs_raw: 1.3526e+14, Normalized eFLOPs: 0.3862, CSV_Line: 78893
+Avg Reward: 0.5670, Training Loss: 0, Cache Hit: True
+Answer: OfflineAnswer | Ground Truth: None
+--------------------------------------------------------------------------------
+Problem ID: 3/210 (QueryID: test150_question41)
+Algorithm: lin_ucb, Diagonal: False
+Selected Model: qwen3-8b, QP: 1, CP: 4, BS: 2, Tokens: 435
+Reward: 0.9217 (Acc=1.00*w0.4, Ver=0.98*w0.4, eFLOPs=9.19e+13*w0.2)
+eFLOPs_raw: 9.1942e+13, Normalized eFLOPs: 0.3511, CSV_Line: 76979
+Avg Reward: 0.6853, Training Loss: 0, Cache Hit: True
+Answer: OfflineAnswer | Ground Truth: None
+--------------------------------------------------------------------------------
+Problem ID: 4/210 (QueryID: test150_question26)
+Algorithm: lin_ucb, Diagonal: False
+Selected Model: qwen3-32b, QP: 2, CP: 8, BS: 2, Tokens: 388
+Reward: 0.9035 (Acc=1.00*w0.4, Ver=0.98*w0.4, eFLOPs=2.52e+14*w0.2)
+eFLOPs_raw: 2.5164e+14, Normalized eFLOPs: 0.4427, CSV_Line: 67066
+Avg Reward: 0.7398, Training Loss: 0, Cache Hit: True
+Answer: OfflineAnswer | Ground Truth: None
+--------------------------------------------------------------------------------
+Problem ID: 5/210 (QueryID: test150_question137)
+Algorithm: lin_ucb, Diagonal: False
+Selected Model: qwen3-4b, QP: 1, CP: 4, BS: 2, Tokens: 320
+Reward: 0.9102 (Acc=1.00*w0.4, Ver=0.99*w0.4, eFLOPs=2.27e+14*w0.2)
+eFLOPs_raw: 2.2684e+14, Normalized eFLOPs: 0.4333, CSV_Line: 39436
+Avg Reward: 0.7739, Training Loss: 0, Cache Hit: True
+Answer: OfflineAnswer | Ground Truth: None
+--------------------------------------------------------------------------------
+Problem ID: 6/210 (QueryID: test150_question108)
+Algorithm: lin_ucb, Diagonal: False
+Selected Model: qwen3-4b, QP: 1, CP: 1, BS: 1, Tokens: 387
+Reward: 0.1685 (Acc=0.00*w0.4, Ver=0.17*w0.4, eFLOPs=5.10e+14*w0.2)
+eFLOPs_raw: 5.1007e+14, Normalized eFLOPs: 0.5070, CSV_Line: 69620
+Avg Reward: 0.6730, Training Loss: 0, Cache Hit: True
+Answer: OfflineAnswer | Ground Truth: None
+--------------------------------------------------------------------------------
+Problem ID: 7/210 (QueryID: test150_question5)
+Algorithm: lin_ucb, Diagonal: False
+Selected Model: qwen3-0.6b, QP: 8, CP: 1, BS: 1, Tokens: 339
+Reward: 0.5291 (Acc=0.00*w0.4, Ver=1.00*w0.4, eFLOPs=8.85e+13*w0.2)
+eFLOPs_raw: 8.8482e+13, Normalized eFLOPs: 0.3476, CSV_Line: 37417
+Avg Reward: 0.6524, Training Loss: 0, Cache Hit: True
+Answer: OfflineAnswer | Ground Truth: None
+--------------------------------------------------------------------------------
+Problem ID: 8/210 (QueryID: test150_question143)
+Algorithm: lin_ucb, Diagonal: False
+Selected Model: qwen3-32b, QP: 8, CP: 8, BS: 2, Tokens: 2508
+Reward: 0.4973 (Acc=0.00*w0.4, Ver=0.97*w0.4, eFLOPs=3.05e+14*w0.2)
+eFLOPs_raw: 3.0465e+14, Normalized eFLOPs: 0.4601, CSV_Line: 66830
+Avg Reward: 0.6330, Training Loss: 0, Cache Hit: True
+Answer: OfflineAnswer | Ground Truth: None
+--------------------------------------------------------------------------------
+Problem ID: 9/210 (QueryID: test150_question109)
+Algorithm: lin_ucb, Diagonal: False
+Selected Model: qwen3-4b, QP: 1, CP: 4, BS: 2, Tokens: 1546
+Reward: 0.9456 (Acc=1.00*w0.4, Ver=0.99*w0.4, eFLOPs=3.12e+13*w0.2)
+eFLOPs_raw: 3.1188e+13, Normalized eFLOPs: 0.2527, CSV_Line: 38969
+Avg Reward: 0.6678, Training Loss: 0, Cache Hit: True
+Answer: OfflineAnswer | Ground Truth: None
+--------------------------------------------------------------------------------
+Problem ID: 10/210 (QueryID: test150_question21)
+Algorithm: lin_ucb, Diagonal: False
+Selected Model: qwen3-0.6b, QP: 2, CP: 2, BS: 1, Tokens: 154
+Reward: 0.9465 (Acc=1.00*w0.4, Ver=0.96*w0.4, eFLOPs=1.58e+13*w0.2)
+eFLOPs_raw: 1.5816e+13, Normalized eFLOPs: 0.1909, CSV_Line: 97539
+Avg Reward: 0.6956, Training Loss: 0, Cache Hit: True
+Answer: OfflineAnswer | Ground Truth: None
+--------------------------------------------------------------------------------
+Problem ID: 11/210 (QueryID: test_aime_question4)
+Algorithm: lin_ucb, Diagonal: False
+Selected Model: qwen3-0.6b, QP: 8, CP: 1, BS: 1, Tokens: 1538
+Reward: 0.1734 (Acc=0.00*w0.4, Ver=0.16*w0.4, eFLOPs=2.75e+14*w0.2)
+eFLOPs_raw: 2.7531e+14, Normalized eFLOPs: 0.4509, CSV_Line: 7696
+Avg Reward: 0.6482, Training Loss: 0, Cache Hit: True
+Answer: OfflineAnswer | Ground Truth: None
+--------------------------------------------------------------------------------
+Problem ID: 12/210 (QueryID: test150_question45)
+Algorithm: lin_ucb, Diagonal: False
+Selected Model: qwen3-4b, QP: 1, CP: 16, BS: 4, Tokens: 3263
+Reward: 0.9148 (Acc=1.00*w0.4, Ver=0.96*w0.4, eFLOPs=9.51e+13*w0.2)
+eFLOPs_raw: 9.5115e+13, Normalized eFLOPs: 0.3542, CSV_Line: 91800
+Avg Reward: 0.6704, Training Loss: 0, Cache Hit: True
+Answer: OfflineAnswer | Ground Truth: None
+--------------------------------------------------------------------------------
+Problem ID: 13/210 (QueryID: test_aime_question43)
+Algorithm: lin_ucb, Diagonal: False
+Selected Model: qwen3-14b, QP: 2, CP: 32, BS: 4, Tokens: 2919
+Reward: 0.3659 (Acc=0.00*w0.4, Ver=0.63*w0.4, eFLOPs=2.12e+14*w0.2)
+eFLOPs_raw: 2.1164e+14, Normalized eFLOPs: 0.4270, CSV_Line: 6344
+Avg Reward: 0.6470, Training Loss: 0, Cache Hit: True
+Answer: OfflineAnswer | Ground Truth: None
+--------------------------------------------------------------------------------
+Problem ID: 14/210 (QueryID: test_aime_question14)
+Algorithm: lin_ucb, Diagonal: False
+Selected Model: qwen3-14b, QP: 32, CP: 2, BS: 1, Tokens: 7853
+Reward: 0.7172 (Acc=1.00*w0.4, Ver=0.60*w0.4, eFLOPs=1.52e+15*w0.2)
+eFLOPs_raw: 1.5223e+15, Normalized eFLOPs: 0.6066, CSV_Line: 2432
+Avg Reward: 0.6520, Training Loss: 0, Cache Hit: True
+Answer: OfflineAnswer | Ground Truth: None
+--------------------------------------------------------------------------------
+Problem ID: 15/210 (QueryID: test150_question2)
+Algorithm: lin_ucb, Diagonal: False
+Selected Model: qwen3-32b, QP: 1, CP: 64, BS: 4, Tokens: 1229
+Reward: 0.9221 (Acc=1.00*w0.4, Ver=0.97*w0.4, eFLOPs=7.42e+13*w0.2)
+eFLOPs_raw: 7.4207e+13, Normalized eFLOPs: 0.3316, CSV_Line: 74347
+Avg Reward: 0.6700, Training Loss: 0, Cache Hit: True
+Answer: OfflineAnswer | Ground Truth: None
+--------------------------------------------------------------------------------
+Problem ID: 16/210 (QueryID: test150_question14)
+Algorithm: lin_ucb, Diagonal: False
+Selected Model: qwen3-14b, QP: 2, CP: 4, BS: 2, Tokens: 708
+Reward: 0.8764 (Acc=1.00*w0.4, Ver=0.93*w0.4, eFLOPs=4.03e+14*w0.2)
+eFLOPs_raw: 4.0283e+14, Normalized eFLOPs: 0.4856, CSV_Line: 104126
+Avg Reward: 0.6829, Training Loss: 0, Cache Hit: True
+Answer: OfflineAnswer | Ground Truth: None
+--------------------------------------------------------------------------------
+Problem ID: 17/210 (QueryID: test_aime_question6)
+Algorithm: lin_ucb, Diagonal: False
+Selected Model: qwen3-14b, QP: 2, CP: 4, BS: 2, Tokens: 1867
+Reward: 0.8416 (Acc=1.00*w0.4, Ver=0.81*w0.4, eFLOPs=1.68e+14*w0.2)
+eFLOPs_raw: 1.6797e+14, Normalized eFLOPs: 0.4059, CSV_Line: 28227
+Avg Reward: 0.6922, Training Loss: 0, Cache Hit: True
+Answer: OfflineAnswer | Ground Truth: None
+--------------------------------------------------------------------------------
+Problem ID: 18/210 (QueryID: test_aime_question22)
+Algorithm: lin_ucb, Diagonal: False
+Selected Model: qwen3-1.7b, QP: 8, CP: 4, BS: 2, Tokens: 24575
+Reward: 0.3648 (Acc=0.00*w0.4, Ver=0.57*w0.4, eFLOPs=6.71e+13*w0.2)
+eFLOPs_raw: 6.7075e+13, Normalized eFLOPs: 0.3224, CSV_Line: 4715
+Avg Reward: 0.6740, Training Loss: 0, Cache Hit: True
+Answer: OfflineAnswer | Ground Truth: None
+--------------------------------------------------------------------------------
+Problem ID: 19/210 (QueryID: test150_question150)
+Algorithm: lin_ucb, Diagonal: False
+Selected Model: qwen3-0.6b, QP: 16, CP: 4, BS: 2, Tokens: 7714
+Reward: 0.4923 (Acc=0.00*w0.4, Ver=0.88*w0.4, eFLOPs=5.70e+13*w0.2)
+eFLOPs_raw: 5.7042e+13, Normalized eFLOPs: 0.3076, CSV_Line: 57184
+Avg Reward: 0.6645, Training Loss: 0, Cache Hit: True
+Answer: OfflineAnswer | Ground Truth: None
+--------------------------------------------------------------------------------
+Problem ID: 20/210 (QueryID: test_aime_question37)
+Algorithm: lin_ucb, Diagonal: False
+Selected Model: qwen3-8b, QP: 32, CP: 2, BS: 1, Tokens: 42524
+Reward: 0.3690 (Acc=0.00*w0.4, Ver=0.67*w0.4, eFLOPs=4.02e+14*w0.2)
+eFLOPs_raw: 4.0249e+14, Normalized eFLOPs: 0.4855, CSV_Line: 22683
+Avg Reward: 0.6497, Training Loss: 0, Cache Hit: True
+Answer: OfflineAnswer | Ground Truth: None
+--------------------------------------------------------------------------------
+Problem ID: 21/210 (QueryID: test150_question52)
+Algorithm: lin_ucb, Diagonal: False
+Selected Model: qwen3-8b, QP: 16, CP: 4, BS: 2, Tokens: 367
+Reward: 0.9007 (Acc=1.00*w0.4, Ver=0.99*w0.4, eFLOPs=3.37e+14*w0.2)
+eFLOPs_raw: 3.3733e+14, Normalized eFLOPs: 0.4694, CSV_Line: 77148
+Avg Reward: 0.6617, Training Loss: 0, Cache Hit: True
+Answer: OfflineAnswer | Ground Truth: None
+--------------------------------------------------------------------------------
+Problem ID: 22/210 (QueryID: test150_question81)
+Algorithm: lin_ucb, Diagonal: False
+Selected Model: qwen3-14b, QP: 2, CP: 1, BS: 1, Tokens: 171
+Reward: 0.8639 (Acc=1.00*w0.4, Ver=0.95*w0.4, eFLOPs=1.13e+15*w0.2)
+eFLOPs_raw: 1.1286e+15, Normalized eFLOPs: 0.5793, CSV_Line: 43768
+Avg Reward: 0.6708, Training Loss: 0, Cache Hit: True
+Answer: OfflineAnswer | Ground Truth: None
+--------------------------------------------------------------------------------
+Problem ID: 23/210 (QueryID: test150_question93)
+Algorithm: lin_ucb, Diagonal: False
+Selected Model: qwen3-0.6b, QP: 4, CP: 1, BS: 1, Tokens: 288
+Reward: 0.8959 (Acc=1.00*w0.4, Ver=0.87*w0.4, eFLOPs=3.61e+13*w0.2)
+eFLOPs_raw: 3.6144e+13, Normalized eFLOPs: 0.2661, CSV_Line: 38638
+Avg Reward: 0.6806, Training Loss: 0, Cache Hit: True
+Answer: OfflineAnswer | Ground Truth: None
+--------------------------------------------------------------------------------
+Problem ID: 24/210 (QueryID: test_aime_question16)
+Algorithm: lin_ucb, Diagonal: False
+Selected Model: qwen3-32b, QP: 64, CP: 1, BS: 1, Tokens: 2843
+Reward: 0.3413 (Acc=0.00*w0.4, Ver=0.79*w0.4, eFLOPs=2.59e+16*w0.2)
+eFLOPs_raw: 2.5920e+16, Normalized eFLOPs: 0.8645, CSV_Line: 21031
+Avg Reward: 0.6665, Training Loss: 0, Cache Hit: True
+Answer: OfflineAnswer | Ground Truth: None
+--------------------------------------------------------------------------------
+Problem ID: 25/210 (QueryID: test_aime_question46)
+Algorithm: lin_ucb, Diagonal: False
+Selected Model: qwen3-0.6b, QP: 32, CP: 1, BS: 1, Tokens: 2487
+Reward: 0.1731 (Acc=0.00*w0.4, Ver=0.20*w0.4, eFLOPs=6.67e+14*w0.2)
+eFLOPs_raw: 6.6699e+14, Normalized eFLOPs: 0.5314, CSV_Line: 8045
+Avg Reward: 0.6468, Training Loss: 0, Cache Hit: True
+Answer: OfflineAnswer | Ground Truth: None
+--------------------------------------------------------------------------------
+Problem ID: 26/210 (QueryID: test150_question123)
+Algorithm: lin_ucb, Diagonal: False
+Selected Model: qwen3-8b, QP: 8, CP: 2, BS: 1, Tokens: 7934
+Reward: 0.3689 (Acc=0.00*w0.4, Ver=0.63*w0.4, eFLOPs=1.89e+14*w0.2)
+eFLOPs_raw: 1.8887e+14, Normalized eFLOPs: 0.4166, CSV_Line: 30736
+Avg Reward: 0.6361, Training Loss: 0, Cache Hit: True
+Answer: OfflineAnswer | Ground Truth: None
+--------------------------------------------------------------------------------
+Problem ID: 27/210 (QueryID: test_aime_question3)
+Algorithm: lin_ucb, Diagonal: False
+Selected Model: qwen3-8b, QP: 1, CP: 4, BS: 2, Tokens: 1455
+Reward: 0.4867 (Acc=0.00*w0.4, Ver=0.85*w0.4, eFLOPs=3.27e+13*w0.2)
+eFLOPs_raw: 3.2664e+13, Normalized eFLOPs: 0.2569, CSV_Line: 11894
+Avg Reward: 0.6305, Training Loss: 0, Cache Hit: True
+Answer: OfflineAnswer | Ground Truth: None
+--------------------------------------------------------------------------------
+Problem ID: 28/210 (QueryID: test150_question142)
+Algorithm: lin_ucb, Diagonal: False
+Selected Model: qwen3-4b, QP: 2, CP: 1, BS: 1, Tokens: 1488
+Reward: 0.3351 (Acc=0.00*w0.4, Ver=0.64*w0.4, eFLOPs=1.57e+15*w0.2)
+eFLOPs_raw: 1.5658e+15, Normalized eFLOPs: 0.6091, CSV_Line: 70415
+Avg Reward: 0.6200, Training Loss: 0, Cache Hit: True
+Answer: OfflineAnswer | Ground Truth: None
+--------------------------------------------------------------------------------
+Problem ID: 29/210 (QueryID: test_aime_question31)
+Algorithm: lin_ucb, Diagonal: False
+Selected Model: qwen3-1.7b, QP: 8, CP: 4, BS: 2, Tokens: 10551
+Reward: 0.5238 (Acc=0.00*w0.4, Ver=0.95*w0.4, eFLOPs=4.56e+13*w0.2)
+eFLOPs_raw: 4.5627e+13, Normalized eFLOPs: 0.2873, CSV_Line: 4867
+Avg Reward: 0.6167, Training Loss: 0, Cache Hit: True
+Answer: OfflineAnswer | Ground Truth: None
+--------------------------------------------------------------------------------
+Problem ID: 30/210 (QueryID: test150_question110)
+Algorithm: lin_ucb, Diagonal: False
+Selected Model: qwen3-14b, QP: 1, CP: 4, BS: 2, Tokens: 293
+Reward: 0.8970 (Acc=1.00*w0.4, Ver=1.00*w0.4, eFLOPs=5.29e+14*w0.2)
+eFLOPs_raw: 5.2891e+14, Normalized eFLOPs: 0.5103, CSV_Line: 103784
+Avg Reward: 0.6260, Training Loss: 0, Cache Hit: True
+Answer: OfflineAnswer | Ground Truth: None
+--------------------------------------------------------------------------------
+Problem ID: 31/210 (QueryID: test_aime_question45)
+Algorithm: lin_ucb, Diagonal: False
+Selected Model: qwen3-8b, QP: 16, CP: 4, BS: 2, Tokens: 46658
+Reward: 0.4062 (Acc=0.00*w0.4, Ver=0.77*w0.4, eFLOPs=5.41e+14*w0.2)
+eFLOPs_raw: 5.4095e+14, Normalized eFLOPs: 0.5124, CSV_Line: 12287
+Avg Reward: 0.6189, Training Loss: 0, Cache Hit: True
+Answer: OfflineAnswer | Ground Truth: None
+--------------------------------------------------------------------------------
+Problem ID: 32/210 (QueryID: test_aime_question48)
+Algorithm: lin_ucb, Diagonal: False
+Selected Model: qwen3-4b, QP: 4, CP: 4, BS: 2, Tokens: 3931
+Reward: 0.3319 (Acc=0.00*w0.4, Ver=0.51*w0.4, eFLOPs=9.42e+13*w0.2)
+eFLOPs_raw: 9.4155e+13, Normalized eFLOPs: 0.3533, CSV_Line: 13239
+Avg Reward: 0.6100, Training Loss: 0, Cache Hit: True
+Answer: OfflineAnswer | Ground Truth: None
+--------------------------------------------------------------------------------
+Problem ID: 33/210 (QueryID: test150_question65)
+Algorithm: lin_ucb, Diagonal: False
+Selected Model: qwen3-4b, QP: 2, CP: 1, BS: 1, Tokens: 7285
+Reward: 0.1158 (Acc=0.00*w0.4, Ver=0.17*w0.4, eFLOPs=8.00e+15*w0.2)
+eFLOPs_raw: 7.9980e+15, Normalized eFLOPs: 0.7575, CSV_Line: 71738
+Avg Reward: 0.5950, Training Loss: 0, Cache Hit: True
+Answer: OfflineAnswer | Ground Truth: None
+--------------------------------------------------------------------------------
+Problem ID: 34/210 (QueryID: test150_question118)
+Algorithm: lin_ucb, Diagonal: False
+Selected Model: qwen3-14b, QP: 1, CP: 2, BS: 1, Tokens: 1119
+Reward: 0.8927 (Acc=1.00*w0.4, Ver=0.97*w0.4, eFLOPs=3.46e+14*w0.2)
+eFLOPs_raw: 3.4560e+14, Normalized eFLOPs: 0.4716, CSV_Line: 58987
+Avg Reward: 0.6037, Training Loss: 0, Cache Hit: True
+Answer: OfflineAnswer | Ground Truth: None
+--------------------------------------------------------------------------------
+Problem ID: 35/210 (QueryID: test150_question10)
+Algorithm: lin_ucb, Diagonal: False
+Selected Model: qwen3-0.6b, QP: 32, CP: 1, BS: 1, Tokens: 155
+Reward: 0.8357 (Acc=1.00*w0.4, Ver=0.79*w0.4, eFLOPs=1.62e+14*w0.2)
+eFLOPs_raw: 1.6168e+14, Normalized eFLOPs: 0.4025, CSV_Line: 38564
+Avg Reward: 0.6104, Training Loss: 0, Cache Hit: True
+Answer: OfflineAnswer | Ground Truth: None
+--------------------------------------------------------------------------------
+Problem ID: 36/210 (QueryID: test150_question117)
+Algorithm: lin_ucb, Diagonal: False
+Selected Model: qwen3-32b, QP: 32, CP: 2, BS: 1, Tokens: 226
+Reward: 0.8910 (Acc=1.00*w0.4, Ver=0.98*w0.4, eFLOPs=5.30e+14*w0.2)
+eFLOPs_raw: 5.3042e+14, Normalized eFLOPs: 0.5106, CSV_Line: 100354
+Avg Reward: 0.6182, Training Loss: 0, Cache Hit: True
+Answer: OfflineAnswer | Ground Truth: None
+--------------------------------------------------------------------------------
+Problem ID: 37/210 (QueryID: test150_question136)
+Algorithm: lin_ucb, Diagonal: False
+Selected Model: qwen3-0.6b, QP: 1, CP: 8, BS: 2, Tokens: 211
+Reward: 0.5792 (Acc=0.00*w0.4, Ver=1.00*w0.4, eFLOPs=5.87e+12*w0.2)
+eFLOPs_raw: 5.8734e+12, Normalized eFLOPs: 0.1007, CSV_Line: 33443
+Avg Reward: 0.6171, Training Loss: 0, Cache Hit: True
+Answer: OfflineAnswer | Ground Truth: None
+--------------------------------------------------------------------------------
+Problem ID: 38/210 (QueryID: test150_question101)
+Algorithm: lin_ucb, Diagonal: False
+Selected Model: qwen3-4b, QP: 1, CP: 16, BS: 4, Tokens: 1281
+Reward: 0.5240 (Acc=0.00*w0.4, Ver=0.96*w0.4, eFLOPs=4.80e+13*w0.2)
+eFLOPs_raw: 4.7971e+13, Normalized eFLOPs: 0.2919, CSV_Line: 91025
+Avg Reward: 0.6147, Training Loss: 0, Cache Hit: True
+Answer: OfflineAnswer | Ground Truth: None
+--------------------------------------------------------------------------------
+Problem ID: 39/210 (QueryID: test150_question30)
+Algorithm: lin_ucb, Diagonal: False
+Selected Model: qwen3-8b, QP: 8, CP: 4, BS: 2, Tokens: 18096
+Reward: 0.3742 (Acc=0.00*w0.4, Ver=0.66*w0.4, eFLOPs=2.57e+14*w0.2)
+eFLOPs_raw: 2.5724e+14, Normalized eFLOPs: 0.4447, CSV_Line: 76776
+Avg Reward: 0.6085, Training Loss: 0, Cache Hit: True
+Answer: OfflineAnswer | Ground Truth: None
+--------------------------------------------------------------------------------
+Problem ID: 40/210 (QueryID: test150_question64)
+Algorithm: lin_ucb, Diagonal: False
+Selected Model: qwen3-14b, QP: 2, CP: 16, BS: 4, Tokens: 911
+Reward: 0.8809 (Acc=1.00*w0.4, Ver=0.94*w0.4, eFLOPs=3.33e+14*w0.2)
+eFLOPs_raw: 3.3295e+14, Normalized eFLOPs: 0.4682, CSV_Line: 93335
+Avg Reward: 0.6153, Training Loss: 0, Cache Hit: True
+Answer: OfflineAnswer | Ground Truth: None
+--------------------------------------------------------------------------------
+Problem ID: 41/210 (QueryID: test150_question1)
+Algorithm: lin_ucb, Diagonal: False
+Selected Model: qwen3-8b, QP: 8, CP: 1, BS: 1, Tokens: 429
+Reward: 0.8550 (Acc=1.00*w0.4, Ver=0.97*w0.4, eFLOPs=2.75e+15*w0.2)
+eFLOPs_raw: 2.7490e+15, Normalized eFLOPs: 0.6603, CSV_Line: 80651
+Avg Reward: 0.6211, Training Loss: 0, Cache Hit: True
+Answer: OfflineAnswer | Ground Truth: None
+--------------------------------------------------------------------------------
+Problem ID: 42/210 (QueryID: test150_question106)
+Algorithm: lin_ucb, Diagonal: False
+Selected Model: qwen3-1.7b, QP: 4, CP: 2, BS: 1, Tokens: 192
+Reward: 0.9484 (Acc=1.00*w0.4, Ver=0.99*w0.4, eFLOPs=2.83e+13*w0.2)
+eFLOPs_raw: 2.8341e+13, Normalized eFLOPs: 0.2440, CSV_Line: 83946
+Avg Reward: 0.6289, Training Loss: 0, Cache Hit: True
+Answer: OfflineAnswer | Ground Truth: None
+--------------------------------------------------------------------------------
+Problem ID: 43/210 (QueryID: test_aime_question10)
+Algorithm: lin_ucb, Diagonal: False
+Selected Model: qwen3-0.6b, QP: 1, CP: 1, BS: 1, Tokens: 790
+Reward: 0.1521 (Acc=0.00*w0.4, Ver=0.10*w0.4, eFLOPs=2.41e+14*w0.2)
+eFLOPs_raw: 2.4060e+14, Normalized eFLOPs: 0.4386, CSV_Line: 8460
+Avg Reward: 0.6178, Training Loss: 0, Cache Hit: True
+Answer: OfflineAnswer | Ground Truth: None
+--------------------------------------------------------------------------------
+Problem ID: 44/210 (QueryID: test_aime_question13)
+Algorithm: lin_ucb, Diagonal: False
+Selected Model: qwen3-4b, QP: 2, CP: 16, BS: 4, Tokens: 9424
+Reward: 0.4916 (Acc=0.00*w0.4, Ver=0.90*w0.4, eFLOPs=9.29e+13*w0.2)
+eFLOPs_raw: 9.2880e+13, Normalized eFLOPs: 0.3520, CSV_Line: 42
+Avg Reward: 0.6150, Training Loss: 0, Cache Hit: True
+Answer: OfflineAnswer | Ground Truth: None
+--------------------------------------------------------------------------------
+Problem ID: 45/210 (QueryID: test_aime_question39)
+Algorithm: lin_ucb, Diagonal: False
+Selected Model: qwen3-4b, QP: 4, CP: 16, BS: 4, Tokens: 23931
+Reward: 0.3431 (Acc=0.00*w0.4, Ver=0.56*w0.4, eFLOPs=1.75e+14*w0.2)
+eFLOPs_raw: 1.7493e+14, Normalized eFLOPs: 0.4096, CSV_Line: 291
+Avg Reward: 0.6089, Training Loss: 0, Cache Hit: True
+Answer: OfflineAnswer | Ground Truth: None
+--------------------------------------------------------------------------------
+Problem ID: 46/210 (QueryID: test150_question79)
+Algorithm: lin_ucb, Diagonal: False
+Selected Model: qwen3-32b, QP: 1, CP: 4, BS: 2, Tokens: 708
+Reward: 0.8330 (Acc=1.00*w0.4, Ver=0.78*w0.4, eFLOPs=1.57e+14*w0.2)
+eFLOPs_raw: 1.5696e+14, Normalized eFLOPs: 0.3998, CSV_Line: 95596
+Avg Reward: 0.6138, Training Loss: 0, Cache Hit: True
+Answer: OfflineAnswer | Ground Truth: None
+--------------------------------------------------------------------------------
+Problem ID: 47/210 (QueryID: test_aime_question53)
+Algorithm: lin_ucb, Diagonal: False
+Selected Model: qwen3-14b, QP: 2, CP: 32, BS: 4, Tokens: 5890
+Reward: 0.3024 (Acc=0.00*w0.4, Ver=0.48*w0.4, eFLOPs=2.96e+14*w0.2)
+eFLOPs_raw: 2.9640e+14, Normalized eFLOPs: 0.4576, CSV_Line: 6410
+Avg Reward: 0.6072, Training Loss: 0, Cache Hit: True
+Answer: OfflineAnswer | Ground Truth: None
+--------------------------------------------------------------------------------
+Problem ID: 48/210 (QueryID: test150_question17)
+Algorithm: lin_ucb, Diagonal: False
+Selected Model: qwen3-1.7b, QP: 8, CP: 4, BS: 2, Tokens: 290
+Reward: 0.9180 (Acc=1.00*w0.4, Ver=0.96*w0.4, eFLOPs=7.97e+13*w0.2)
+eFLOPs_raw: 7.9694e+13, Normalized eFLOPs: 0.3381, CSV_Line: 87366
+Avg Reward: 0.6137, Training Loss: 0, Cache Hit: True
+Answer: OfflineAnswer | Ground Truth: None
+--------------------------------------------------------------------------------
+Problem ID: 49/210 (QueryID: test150_question43)
+Algorithm: lin_ucb, Diagonal: False
+Selected Model: qwen3-1.7b, QP: 64, CP: 1, BS: 1, Tokens: 991
+Reward: 0.1105 (Acc=0.00*w0.4, Ver=0.11*w0.4, eFLOPs=2.98e+15*w0.2)
+eFLOPs_raw: 2.9793e+15, Normalized eFLOPs: 0.6677, CSV_Line: 50519
+Avg Reward: 0.6034, Training Loss: 0, Cache Hit: True
+Answer: OfflineAnswer | Ground Truth: None
+--------------------------------------------------------------------------------
+Problem ID: 50/210 (QueryID: test150_question19)
+Algorithm: lin_ucb, Diagonal: False
+Selected Model: qwen3-32b, QP: 2, CP: 2, BS: 1, Tokens: 399
+Reward: 0.8126 (Acc=1.00*w0.4, Ver=0.78*w0.4, eFLOPs=4.38e+14*w0.2)
+eFLOPs_raw: 4.3833e+14, Normalized eFLOPs: 0.4932, CSV_Line: 101086
+Avg Reward: 0.6076, Training Loss: 0, Cache Hit: True
+Answer: OfflineAnswer | Ground Truth: None
+--------------------------------------------------------------------------------
+Problem ID: 51/210 (QueryID: test150_question74)
+Algorithm: lin_ucb, Diagonal: False
+Selected Model: qwen3-8b, QP: 2, CP: 1, BS: 1, Tokens: 798
+Reward: 0.3607 (Acc=0.00*w0.4, Ver=0.71*w0.4, eFLOPs=1.65e+15*w0.2)
+eFLOPs_raw: 1.6483e+15, Normalized eFLOPs: 0.6138, CSV_Line: 83200
+Avg Reward: 0.6027, Training Loss: 0, Cache Hit: True
+Answer: OfflineAnswer | Ground Truth: None
+--------------------------------------------------------------------------------
+Problem ID: 52/210 (QueryID: test150_question20)
+Algorithm: lin_ucb, Diagonal: False
+Selected Model: qwen3-14b, QP: 1, CP: 2, BS: 1, Tokens: 1996
+Reward: 0.1462 (Acc=0.00*w0.4, Ver=0.07*w0.4, eFLOPs=1.60e+14*w0.2)
+eFLOPs_raw: 1.6000e+14, Normalized eFLOPs: 0.4015, CSV_Line: 59705
+Avg Reward: 0.5940, Training Loss: 0, Cache Hit: True
+Answer: OfflineAnswer | Ground Truth: None
+--------------------------------------------------------------------------------
+Problem ID: 53/210 (QueryID: test150_question51)
+Algorithm: lin_ucb, Diagonal: False
+Selected Model: qwen3-8b, QP: 1, CP: 1, BS: 1, Tokens: 295
+Reward: 0.8639 (Acc=1.00*w0.4, Ver=0.93*w0.4, eFLOPs=7.88e+14*w0.2)
+eFLOPs_raw: 7.8839e+14, Normalized eFLOPs: 0.5467, CSV_Line: 82678
+Avg Reward: 0.5990, Training Loss: 0, Cache Hit: True
+Answer: OfflineAnswer | Ground Truth: None
+--------------------------------------------------------------------------------
+Problem ID: 54/210 (QueryID: test150_question75)
+Algorithm: lin_ucb, Diagonal: False
+Selected Model: qwen3-8b, QP: 1, CP: 1, BS: 1, Tokens: 213
+Reward: 0.8774 (Acc=1.00*w0.4, Ver=0.95*w0.4, eFLOPs=5.84e+14*w0.2)
+eFLOPs_raw: 5.8384e+14, Normalized eFLOPs: 0.5193, CSV_Line: 83223
+Avg Reward: 0.6042, Training Loss: 0, Cache Hit: True
+Answer: OfflineAnswer | Ground Truth: None
+--------------------------------------------------------------------------------
+Problem ID: 55/210 (QueryID: test_aime_question17)
+Algorithm: lin_ucb, Diagonal: False
+Selected Model: qwen3-8b, QP: 2, CP: 1, BS: 1, Tokens: 1057
+Reward: 0.2065 (Acc=0.00*w0.4, Ver=0.38*w0.4, eFLOPs=5.19e+15*w0.2)
+eFLOPs_raw: 5.1861e+15, Normalized eFLOPs: 0.7181, CSV_Line: 17285
+Avg Reward: 0.5970, Training Loss: 0, Cache Hit: True
+Answer: OfflineAnswer | Ground Truth: None
+--------------------------------------------------------------------------------
+Problem ID: 56/210 (QueryID: test150_question144)
+Algorithm: lin_ucb, Diagonal: False
+Selected Model: qwen3-8b, QP: 1, CP: 1, BS: 1, Tokens: 889
+Reward: 0.4037 (Acc=0.00*w0.4, Ver=0.83*w0.4, eFLOPs=2.38e+15*w0.2)
+eFLOPs_raw: 2.3763e+15, Normalized eFLOPs: 0.6471, CSV_Line: 81710
+Avg Reward: 0.5935, Training Loss: 0, Cache Hit: True
+Answer: OfflineAnswer | Ground Truth: None
+--------------------------------------------------------------------------------
+Problem ID: 57/210 (QueryID: test150_question119)
+Algorithm: lin_ucb, Diagonal: False
+Selected Model: qwen3-14b, QP: 1, CP: 1, BS: 1, Tokens: 194
+Reward: 0.8783 (Acc=1.00*w0.4, Ver=0.98*w0.4, eFLOPs=9.68e+14*w0.2)
+eFLOPs_raw: 9.6763e+14, Normalized eFLOPs: 0.5653, CSV_Line: 41524
+Avg Reward: 0.5985, Training Loss: 0, Cache Hit: True
+Answer: OfflineAnswer | Ground Truth: None
+--------------------------------------------------------------------------------
+Problem ID: 58/210 (QueryID: test150_question25)
+Algorithm: lin_ucb, Diagonal: False
+Selected Model: qwen3-14b, QP: 8, CP: 2, BS: 1, Tokens: 4323
+Reward: 0.4913 (Acc=0.00*w0.4, Ver=0.98*w0.4, eFLOPs=5.05e+14*w0.2)
+eFLOPs_raw: 5.0532e+14, Normalized eFLOPs: 0.5062, CSV_Line: 59805
+Avg Reward: 0.5967, Training Loss: 0, Cache Hit: True
+Answer: OfflineAnswer | Ground Truth: None
+--------------------------------------------------------------------------------
+Problem ID: 59/210 (QueryID: test_aime_question1)
+Algorithm: lin_ucb, Diagonal: False
+Selected Model: qwen3-8b, QP: 2, CP: 1, BS: 1, Tokens: 1168
+Reward: 0.8113 (Acc=1.00*w0.4, Ver=0.88*w0.4, eFLOPs=4.90e+15*w0.2)
+eFLOPs_raw: 4.8996e+15, Normalized eFLOPs: 0.7129, CSV_Line: 17119
+Avg Reward: 0.6003, Training Loss: 0, Cache Hit: True
+Answer: OfflineAnswer | Ground Truth: None
+--------------------------------------------------------------------------------
+Problem ID: 60/210 (QueryID: test150_question54)
+Algorithm: lin_ucb, Diagonal: False
+Selected Model: qwen3-14b, QP: 1, CP: 1, BS: 1, Tokens: 248
+Reward: 0.8459 (Acc=1.00*w0.4, Ver=0.91*w0.4, eFLOPs=1.23e+15*w0.2)
+eFLOPs_raw: 1.2256e+15, Normalized eFLOPs: 0.5868, CSV_Line: 43141
+Avg Reward: 0.6044, Training Loss: 0, Cache Hit: True
+Answer: OfflineAnswer | Ground Truth: None
+--------------------------------------------------------------------------------
+Problem ID: 61/210 (QueryID: test_aime_question11)
+Algorithm: lin_ucb, Diagonal: False
+Selected Model: qwen3-8b, QP: 2, CP: 1, BS: 1, Tokens: 1663
+Reward: 0.1800 (Acc=0.00*w0.4, Ver=0.32*w0.4, eFLOPs=6.96e+15*w0.2)
+eFLOPs_raw: 6.9577e+15, Normalized eFLOPs: 0.7449, CSV_Line: 17159
+Avg Reward: 0.5974, Training Loss: 0, Cache Hit: True
+Answer: OfflineAnswer | Ground Truth: None
+--------------------------------------------------------------------------------
+Problem ID: 62/210 (QueryID: test150_question42)
+Algorithm: lin_ucb, Diagonal: False
+Selected Model: qwen3-14b, QP: 8, CP: 2, BS: 1, Tokens: 586
+Reward: 0.8659 (Acc=1.00*w0.4, Ver=0.90*w0.4, eFLOPs=3.68e+14*w0.2)
+eFLOPs_raw: 3.6809e+14, Normalized eFLOPs: 0.4773, CSV_Line: 60146
+Avg Reward: 0.6018, Training Loss: 0, Cache Hit: True
+Answer: OfflineAnswer | Ground Truth: None
+--------------------------------------------------------------------------------
+Problem ID: 63/210 (QueryID: test150_question36)
+Algorithm: lin_ucb, Diagonal: False
+Selected Model: qwen3-14b, QP: 1, CP: 1, BS: 1, Tokens: 277
+Reward: 0.4296 (Acc=0.00*w0.4, Ver=0.87*w0.4, eFLOPs=1.32e+15*w0.2)
+eFLOPs_raw: 1.3175e+15, Normalized eFLOPs: 0.5934, CSV_Line: 42721
+Avg Reward: 0.5990, Training Loss: 0, Cache Hit: True
+Answer: OfflineAnswer | Ground Truth: None
+--------------------------------------------------------------------------------
+Problem ID: 64/210 (QueryID: test150_question7)
+Algorithm: lin_ucb, Diagonal: False
+Selected Model: qwen3-14b, QP: 1, CP: 1, BS: 1, Tokens: 310
+Reward: 0.4576 (Acc=0.00*w0.4, Ver=0.95*w0.4, eFLOPs=1.55e+15*w0.2)
+eFLOPs_raw: 1.5512e+15, Normalized eFLOPs: 0.6083, CSV_Line: 43286
+Avg Reward: 0.5968, Training Loss: 0, Cache Hit: True
+Answer: OfflineAnswer | Ground Truth: None
+--------------------------------------------------------------------------------
+Problem ID: 65/210 (QueryID: test150_question71)
+Algorithm: lin_ucb, Diagonal: False
+Selected Model: qwen3-14b, QP: 8, CP: 2, BS: 1, Tokens: 397
+Reward: 0.9042 (Acc=1.00*w0.4, Ver=0.98*w0.4, eFLOPs=2.61e+14*w0.2)
+eFLOPs_raw: 2.6142e+14, Normalized eFLOPs: 0.4462, CSV_Line: 60722
+Avg Reward: 0.6016, Training Loss: 0, Cache Hit: True
+Answer: OfflineAnswer | Ground Truth: None
+--------------------------------------------------------------------------------
+Problem ID: 66/210 (QueryID: test150_question98)
+Algorithm: lin_ucb, Diagonal: False
+Selected Model: qwen3-14b, QP: 8, CP: 2, BS: 1, Tokens: 879
+Reward: 0.8158 (Acc=1.00*w0.4, Ver=0.79*w0.4, eFLOPs=5.32e+14*w0.2)
+eFLOPs_raw: 5.3164e+14, Normalized eFLOPs: 0.5108, CSV_Line: 61244
+Avg Reward: 0.6048, Training Loss: 0, Cache Hit: True
+Answer: OfflineAnswer | Ground Truth: None
+--------------------------------------------------------------------------------
+Problem ID: 67/210 (QueryID: test150_question18)
+Algorithm: lin_ucb, Diagonal: False
+Selected Model: qwen3-14b, QP: 8, CP: 2, BS: 1, Tokens: 411
+Reward: 0.8396 (Acc=1.00*w0.4, Ver=0.86*w0.4, eFLOPs=5.69e+14*w0.2)
+eFLOPs_raw: 5.6865e+14, Normalized eFLOPs: 0.5169, CSV_Line: 59662
+Avg Reward: 0.6083, Training Loss: 0, Cache Hit: True
+Answer: OfflineAnswer | Ground Truth: None
+--------------------------------------------------------------------------------
+Problem ID: 68/210 (QueryID: test150_question115)
+Algorithm: lin_ucb, Diagonal: False
+Selected Model: qwen3-14b, QP: 8, CP: 2, BS: 1, Tokens: 1082
+Reward: 0.4839 (Acc=0.00*w0.4, Ver=0.98*w0.4, eFLOPs=7.79e+14*w0.2)
+eFLOPs_raw: 7.7874e+14, Normalized eFLOPs: 0.5455, CSV_Line: 58922
+Avg Reward: 0.6065, Training Loss: 0, Cache Hit: True
+Answer: OfflineAnswer | Ground Truth: None
+--------------------------------------------------------------------------------
+Problem ID: 69/210 (QueryID: test_aime_question33)
+Algorithm: lin_ucb, Diagonal: False
+Selected Model: qwen3-14b, QP: 8, CP: 2, BS: 1, Tokens: 1181
+Reward: 0.7030 (Acc=1.00*w0.4, Ver=0.51*w0.4, eFLOPs=5.44e+14*w0.2)
+eFLOPs_raw: 5.4396e+14, Normalized eFLOPs: 0.5129, CSV_Line: 2818
+Avg Reward: 0.6079, Training Loss: 0, Cache Hit: True
+Answer: OfflineAnswer | Ground Truth: None
+--------------------------------------------------------------------------------
+Problem ID: 70/210 (QueryID: test150_question100)
+Algorithm: lin_ucb, Diagonal: False
+Selected Model: qwen3-14b, QP: 8, CP: 2, BS: 1, Tokens: 559
+Reward: 0.8569 (Acc=1.00*w0.4, Ver=0.91*w0.4, eFLOPs=7.41e+14*w0.2)
+eFLOPs_raw: 7.4052e+14, Normalized eFLOPs: 0.5410, CSV_Line: 61280
+Avg Reward: 0.6114, Training Loss: 0, Cache Hit: True
+Answer: OfflineAnswer | Ground Truth: None
+--------------------------------------------------------------------------------
+Problem ID: 71/210 (QueryID: test150_question83)
+Algorithm: lin_ucb, Diagonal: False
+Selected Model: qwen3-14b, QP: 8, CP: 2, BS: 1, Tokens: 328
+Reward: 0.8931 (Acc=1.00*w0.4, Ver=0.97*w0.4, eFLOPs=3.84e+14*w0.2)
+eFLOPs_raw: 3.8408e+14, Normalized eFLOPs: 0.4812, CSV_Line: 60957
+Avg Reward: 0.6154, Training Loss: 0, Cache Hit: True
+Answer: OfflineAnswer | Ground Truth: None
+--------------------------------------------------------------------------------
+Problem ID: 72/210 (QueryID: test150_question67)
+Algorithm: lin_ucb, Diagonal: False
+Selected Model: qwen3-14b, QP: 8, CP: 2, BS: 1, Tokens: 228
+Reward: 0.8989 (Acc=1.00*w0.4, Ver=0.99*w0.4, eFLOPs=3.65e+14*w0.2)
+eFLOPs_raw: 3.6511e+14, Normalized eFLOPs: 0.4766, CSV_Line: 60632
+Avg Reward: 0.6193, Training Loss: 0, Cache Hit: True
+Answer: OfflineAnswer | Ground Truth: None
+--------------------------------------------------------------------------------
+Problem ID: 73/210 (QueryID: test150_question89)
+Algorithm: lin_ucb, Diagonal: False
+Selected Model: qwen3-14b, QP: 8, CP: 2, BS: 1, Tokens: 195
+Reward: 0.8790 (Acc=1.00*w0.4, Ver=0.96*w0.4, eFLOPs=6.02e+14*w0.2)
+eFLOPs_raw: 6.0195e+14, Normalized eFLOPs: 0.5221, CSV_Line: 61066
+Avg Reward: 0.6229, Training Loss: 0, Cache Hit: True
+Answer: OfflineAnswer | Ground Truth: None
+--------------------------------------------------------------------------------
+Problem ID: 74/210 (QueryID: test150_question47)
+Algorithm: lin_ucb, Diagonal: False
+Selected Model: qwen3-14b, QP: 8, CP: 2, BS: 1, Tokens: 306
+Reward: 0.8349 (Acc=1.00*w0.4, Ver=0.82*w0.4, eFLOPs=3.19e+14*w0.2)
+eFLOPs_raw: 3.1902e+14, Normalized eFLOPs: 0.4643, CSV_Line: 60236
+Avg Reward: 0.6258, Training Loss: 0, Cache Hit: True
+Answer: OfflineAnswer | Ground Truth: None
+--------------------------------------------------------------------------------
+Problem ID: 75/210 (QueryID: test150_question60)
+Algorithm: lin_ucb, Diagonal: False
+Selected Model: qwen3-14b, QP: 8, CP: 2, BS: 1, Tokens: 217
+Reward: 0.8825 (Acc=1.00*w0.4, Ver=0.97*w0.4, eFLOPs=5.90e+14*w0.2)
+eFLOPs_raw: 5.9031e+14, Normalized eFLOPs: 0.5203, CSV_Line: 60490
+Avg Reward: 0.6292, Training Loss: 0, Cache Hit: True
+Answer: OfflineAnswer | Ground Truth: None
+--------------------------------------------------------------------------------
+Problem ID: 76/210 (QueryID: test150_question126)
+Algorithm: lin_ucb, Diagonal: False
+Selected Model: qwen3-14b, QP: 8, CP: 2, BS: 1, Tokens: 527
+Reward: 0.4919 (Acc=0.00*w0.4, Ver=0.97*w0.4, eFLOPs=4.05e+14*w0.2)
+eFLOPs_raw: 4.0482e+14, Normalized eFLOPs: 0.4860, CSV_Line: 59140
+Avg Reward: 0.6274, Training Loss: 0, Cache Hit: True
+Answer: OfflineAnswer | Ground Truth: None
+--------------------------------------------------------------------------------
+Problem ID: 77/210 (QueryID: test_aime_question20)
+Algorithm: lin_ucb, Diagonal: False
+Selected Model: qwen3-14b, QP: 8, CP: 2, BS: 1, Tokens: 1219
+Reward: 0.7785 (Acc=1.00*w0.4, Ver=0.69*w0.4, eFLOPs=4.48e+14*w0.2)
+eFLOPs_raw: 4.4754e+14, Normalized eFLOPs: 0.4951, CSV_Line: 2546
+Avg Reward: 0.6293, Training Loss: 0, Cache Hit: True
+Answer: OfflineAnswer | Ground Truth: None
+--------------------------------------------------------------------------------
+Problem ID: 78/210 (QueryID: test_aime_question15)
+Algorithm: lin_ucb, Diagonal: False
+Selected Model: qwen3-14b, QP: 8, CP: 2, BS: 1, Tokens: 1398
+Reward: 0.8045 (Acc=1.00*w0.4, Ver=0.77*w0.4, eFLOPs=6.30e+14*w0.2)
+eFLOPs_raw: 6.2975e+14, Normalized eFLOPs: 0.5262, CSV_Line: 2458
+Avg Reward: 0.6316, Training Loss: 0, Cache Hit: True
+Answer: OfflineAnswer | Ground Truth: None
+--------------------------------------------------------------------------------
+Problem ID: 79/210 (QueryID: test150_question127)
+Algorithm: lin_ucb, Diagonal: False
+Selected Model: qwen3-14b, QP: 8, CP: 2, BS: 1, Tokens: 641
+Reward: 0.8885 (Acc=1.00*w0.4, Ver=0.98*w0.4, eFLOPs=5.94e+14*w0.2)
+eFLOPs_raw: 5.9402e+14, Normalized eFLOPs: 0.5209, CSV_Line: 59156
+Avg Reward: 0.6348, Training Loss: 0, Cache Hit: True
+Answer: OfflineAnswer | Ground Truth: None
+--------------------------------------------------------------------------------
+Problem ID: 80/210 (QueryID: test150_question87)
+Algorithm: lin_ucb, Diagonal: False
+Selected Model: qwen3-14b, QP: 8, CP: 2, BS: 1, Tokens: 734
+Reward: 0.8861 (Acc=1.00*w0.4, Ver=0.94*w0.4, eFLOPs=2.83e+14*w0.2)
+eFLOPs_raw: 2.8302e+14, Normalized eFLOPs: 0.4534, CSV_Line: 61029
+Avg Reward: 0.6380, Training Loss: 0, Cache Hit: True
+Answer: OfflineAnswer | Ground Truth: None
+--------------------------------------------------------------------------------
+Problem ID: 81/210 (QueryID: test150_question56)
+Algorithm: lin_ucb, Diagonal: False
+Selected Model: qwen3-14b, QP: 8, CP: 2, BS: 1, Tokens: 599
+Reward: 0.5983 (Acc=1.00*w0.4, Ver=0.20*w0.4, eFLOPs=1.79e+14*w0.2)
+eFLOPs_raw: 1.7940e+14, Normalized eFLOPs: 0.4119, CSV_Line: 60418
+Avg Reward: 0.6375, Training Loss: 0, Cache Hit: True
+Answer: OfflineAnswer | Ground Truth: None
+--------------------------------------------------------------------------------
+Problem ID: 82/210 (QueryID: test150_question6)
+Algorithm: lin_ucb, Diagonal: False
+Selected Model: qwen3-14b, QP: 8, CP: 2, BS: 1, Tokens: 13709
+Reward: 0.4141 (Acc=0.00*w0.4, Ver=0.79*w0.4, eFLOPs=5.00e+14*w0.2)
+eFLOPs_raw: 4.9988e+14, Normalized eFLOPs: 0.5052, CSV_Line: 60310
+Avg Reward: 0.6348, Training Loss: 0, Cache Hit: True
+Answer: OfflineAnswer | Ground Truth: None
+--------------------------------------------------------------------------------
+Problem ID: 83/210 (QueryID: test150_question97)
+Algorithm: lin_ucb, Diagonal: False
+Selected Model: qwen3-14b, QP: 8, CP: 2, BS: 1, Tokens: 279
+Reward: 0.8748 (Acc=1.00*w0.4, Ver=0.93*w0.4, eFLOPs=4.17e+14*w0.2)
+eFLOPs_raw: 4.1675e+14, Normalized eFLOPs: 0.4886, CSV_Line: 61228
+Avg Reward: 0.6377, Training Loss: 0, Cache Hit: True
+Answer: OfflineAnswer | Ground Truth: None
+--------------------------------------------------------------------------------
+Problem ID: 84/210 (QueryID: test150_question61)
+Algorithm: lin_ucb, Diagonal: False
+Selected Model: qwen3-14b, QP: 8, CP: 2, BS: 1, Tokens: 2854
+Reward: 0.4827 (Acc=0.00*w0.4, Ver=0.95*w0.4, eFLOPs=3.66e+14*w0.2)
+eFLOPs_raw: 3.6598e+14, Normalized eFLOPs: 0.4768, CSV_Line: 60526
+Avg Reward: 0.6358, Training Loss: 0, Cache Hit: True
+Answer: OfflineAnswer | Ground Truth: None
+--------------------------------------------------------------------------------
+Problem ID: 85/210 (QueryID: test_aime_question47)
+Algorithm: lin_ucb, Diagonal: False
+Selected Model: qwen3-14b, QP: 8, CP: 2, BS: 1, Tokens: 3394
+Reward: 0.8561 (Acc=1.00*w0.4, Ver=0.93*w0.4, eFLOPs=1.19e+15*w0.2)
+eFLOPs_raw: 1.1905e+15, Normalized eFLOPs: 0.5842, CSV_Line: 3087
+Avg Reward: 0.6384, Training Loss: 0, Cache Hit: True
+Answer: OfflineAnswer | Ground Truth: None
+--------------------------------------------------------------------------------
+Problem ID: 86/210 (QueryID: test150_question113)
+Algorithm: lin_ucb, Diagonal: False
+Selected Model: qwen3-14b, QP: 8, CP: 2, BS: 1, Tokens: 221
+Reward: 0.9033 (Acc=1.00*w0.4, Ver=0.98*w0.4, eFLOPs=2.65e+14*w0.2)
+eFLOPs_raw: 2.6508e+14, Normalized eFLOPs: 0.4475, CSV_Line: 58887
+Avg Reward: 0.6415, Training Loss: 0, Cache Hit: True
+Answer: OfflineAnswer | Ground Truth: None
+--------------------------------------------------------------------------------
+Problem ID: 87/210 (QueryID: test150_question63)
+Algorithm: lin_ucb, Diagonal: False
+Selected Model: qwen3-14b, QP: 8, CP: 2, BS: 1, Tokens: 506
+Reward: 0.8534 (Acc=1.00*w0.4, Ver=0.88*w0.4, eFLOPs=4.33e+14*w0.2)
+eFLOPs_raw: 4.3314e+14, Normalized eFLOPs: 0.4922, CSV_Line: 60560
+Avg Reward: 0.6439, Training Loss: 0, Cache Hit: True
+Answer: OfflineAnswer | Ground Truth: None
+--------------------------------------------------------------------------------
+Problem ID: 88/210 (QueryID: test_aime_question55)
+Algorithm: lin_ucb, Diagonal: False
+Selected Model: qwen3-14b, QP: 8, CP: 2, BS: 1, Tokens: 7089
+Reward: 0.3039 (Acc=0.00*w0.4, Ver=0.51*w0.4, eFLOPs=5.00e+14*w0.2)
+eFLOPs_raw: 4.9955e+14, Normalized eFLOPs: 0.5051, CSV_Line: 3250
+Avg Reward: 0.6401, Training Loss: 0, Cache Hit: True
+Answer: OfflineAnswer | Ground Truth: None
+--------------------------------------------------------------------------------
+Problem ID: 89/210 (QueryID: test150_question85)
+Algorithm: lin_ucb, Diagonal: False
+Selected Model: qwen3-14b, QP: 8, CP: 2, BS: 1, Tokens: 190
+Reward: 0.8934 (Acc=1.00*w0.4, Ver=1.00*w0.4, eFLOPs=6.27e+14*w0.2)
+eFLOPs_raw: 6.2726e+14, Normalized eFLOPs: 0.5259, CSV_Line: 60994
+Avg Reward: 0.6429, Training Loss: 0, Cache Hit: True
+Answer: OfflineAnswer | Ground Truth: None
+--------------------------------------------------------------------------------
+Problem ID: 90/210 (QueryID: test150_question76)
+Algorithm: lin_ucb, Diagonal: False
+Selected Model: qwen3-14b, QP: 8, CP: 2, BS: 1, Tokens: 423
+Reward: 0.7601 (Acc=1.00*w0.4, Ver=0.62*w0.4, eFLOPs=2.62e+14*w0.2)
+eFLOPs_raw: 2.6182e+14, Normalized eFLOPs: 0.4463, CSV_Line: 60813
+Avg Reward: 0.6442, Training Loss: 0, Cache Hit: True
+Answer: OfflineAnswer | Ground Truth: None
+--------------------------------------------------------------------------------
+Problem ID: 91/210 (QueryID: test150_question73)
+Algorithm: lin_ucb, Diagonal: False
+Selected Model: qwen3-14b, QP: 8, CP: 2, BS: 1, Tokens: 181
+Reward: 0.8717 (Acc=1.00*w0.4, Ver=0.92*w0.4, eFLOPs=4.23e+14*w0.2)
+eFLOPs_raw: 4.2348e+14, Normalized eFLOPs: 0.4901, CSV_Line: 60758
+Avg Reward: 0.6467, Training Loss: 0, Cache Hit: True
+Answer: OfflineAnswer | Ground Truth: None
+--------------------------------------------------------------------------------
+Problem ID: 92/210 (QueryID: test150_question62)
+Algorithm: lin_ucb, Diagonal: False
+Selected Model: qwen3-14b, QP: 8, CP: 2, BS: 1, Tokens: 259
+Reward: 0.5951 (Acc=1.00*w0.4, Ver=0.20*w0.4, eFLOPs=2.27e+14*w0.2)
+eFLOPs_raw: 2.2690e+14, Normalized eFLOPs: 0.4333, CSV_Line: 60543
+Avg Reward: 0.6461, Training Loss: 0, Cache Hit: True
+Answer: OfflineAnswer | Ground Truth: None
+--------------------------------------------------------------------------------
+Problem ID: 93/210 (QueryID: test150_question96)
+Algorithm: lin_ucb, Diagonal: False
+Selected Model: qwen3-14b, QP: 8, CP: 2, BS: 1, Tokens: 228
+Reward: 0.8625 (Acc=1.00*w0.4, Ver=0.93*w0.4, eFLOPs=7.63e+14*w0.2)
+eFLOPs_raw: 7.6272e+14, Normalized eFLOPs: 0.5437, CSV_Line: 61209
+Avg Reward: 0.6485, Training Loss: 0, Cache Hit: True
+Answer: OfflineAnswer | Ground Truth: None
+--------------------------------------------------------------------------------
+Problem ID: 94/210 (QueryID: test150_question90)
+Algorithm: lin_ucb, Diagonal: False
+Selected Model: qwen3-14b, QP: 8, CP: 2, BS: 1, Tokens: 2817
+Reward: 0.4349 (Acc=0.00*w0.4, Ver=0.82*w0.4, eFLOPs=3.18e+14*w0.2)
+eFLOPs_raw: 3.1780e+14, Normalized eFLOPs: 0.4640, CSV_Line: 61082
+Avg Reward: 0.6462, Training Loss: 0, Cache Hit: True
+Answer: OfflineAnswer | Ground Truth: None
+--------------------------------------------------------------------------------
+Problem ID: 95/210 (QueryID: test_aime_question34)
+Algorithm: lin_ucb, Diagonal: False
+Selected Model: qwen3-14b, QP: 8, CP: 2, BS: 1, Tokens: 5579
+Reward: 0.8744 (Acc=1.00*w0.4, Ver=0.93*w0.4, eFLOPs=3.73e+14*w0.2)
+eFLOPs_raw: 3.7328e+14, Normalized eFLOPs: 0.4786, CSV_Line: 2836
+Avg Reward: 0.6486, Training Loss: 0, Cache Hit: True
+Answer: OfflineAnswer | Ground Truth: None
+--------------------------------------------------------------------------------
+Problem ID: 96/210 (QueryID: test150_question72)
+Algorithm: lin_ucb, Diagonal: False
+Selected Model: qwen3-14b, QP: 8, CP: 2, BS: 1, Tokens: 246
+Reward: 0.8799 (Acc=1.00*w0.4, Ver=0.90*w0.4, eFLOPs=1.69e+14*w0.2)
+eFLOPs_raw: 1.6857e+14, Normalized eFLOPs: 0.4063, CSV_Line: 60742
+Avg Reward: 0.6510, Training Loss: 0, Cache Hit: True
+Answer: OfflineAnswer | Ground Truth: None
+--------------------------------------------------------------------------------
+Problem ID: 97/210 (QueryID: test150_question86)
+Algorithm: lin_ucb, Diagonal: False
+Selected Model: qwen3-14b, QP: 8, CP: 2, BS: 1, Tokens: 249
+Reward: 0.5020 (Acc=1.00*w0.4, Ver=0.02*w0.4, eFLOPs=5.95e+14*w0.2)
+eFLOPs_raw: 5.9533e+14, Normalized eFLOPs: 0.5211, CSV_Line: 61011
+Avg Reward: 0.6495, Training Loss: 0, Cache Hit: True
+Answer: OfflineAnswer | Ground Truth: None
+--------------------------------------------------------------------------------
+Problem ID: 98/210 (QueryID: test150_question23)
+Algorithm: lin_ucb, Diagonal: False
+Selected Model: qwen3-14b, QP: 8, CP: 2, BS: 1, Tokens: 275
+Reward: 0.8900 (Acc=1.00*w0.4, Ver=0.98*w0.4, eFLOPs=4.82e+14*w0.2)
+eFLOPs_raw: 4.8216e+14, Normalized eFLOPs: 0.5019, CSV_Line: 59769
+Avg Reward: 0.6519, Training Loss: 0, Cache Hit: True
+Answer: OfflineAnswer | Ground Truth: None
+--------------------------------------------------------------------------------
+Problem ID: 99/210 (QueryID: test150_question125)
+Algorithm: lin_ucb, Diagonal: False
+Selected Model: qwen3-14b, QP: 8, CP: 2, BS: 1, Tokens: 12727
+Reward: 0.3099 (Acc=0.00*w0.4, Ver=0.51*w0.4, eFLOPs=3.25e+14*w0.2)
+eFLOPs_raw: 3.2465e+14, Normalized eFLOPs: 0.4659, CSV_Line: 59121
+Avg Reward: 0.6485, Training Loss: 0, Cache Hit: True
+Answer: OfflineAnswer | Ground Truth: None
+--------------------------------------------------------------------------------
+Problem ID: 100/210 (QueryID: test150_question4)
+Algorithm: lin_ucb, Diagonal: False
+Selected Model: qwen3-14b, QP: 8, CP: 2, BS: 1, Tokens: 562
+Reward: 0.7547 (Acc=1.00*w0.4, Ver=0.66*w0.4, eFLOPs=7.89e+14*w0.2)
+eFLOPs_raw: 7.8888e+14, Normalized eFLOPs: 0.5467, CSV_Line: 59912
+Avg Reward: 0.6495, Training Loss: 0, Cache Hit: True
+Answer: OfflineAnswer | Ground Truth: None
+--------------------------------------------------------------------------------
+Problem ID: 101/210 (QueryID: test150_question24)
+Algorithm: lin_ucb, Diagonal: False
+Selected Model: qwen3-14b, QP: 8, CP: 2, BS: 1, Tokens: 2005
+Reward: 0.4348 (Acc=0.00*w0.4, Ver=0.85*w0.4, eFLOPs=6.96e+14*w0.2)
+eFLOPs_raw: 6.9584e+14, Normalized eFLOPs: 0.5353, CSV_Line: 59786
+Avg Reward: 0.6474, Training Loss: 0, Cache Hit: True
+Answer: OfflineAnswer | Ground Truth: None
+--------------------------------------------------------------------------------
+Problem ID: 102/210 (QueryID: test150_question53)
+Algorithm: lin_ucb, Diagonal: False
+Selected Model: qwen3-14b, QP: 8, CP: 2, BS: 1, Tokens: 6741
+Reward: 0.3772 (Acc=0.00*w0.4, Ver=0.69*w0.4, eFLOPs=4.19e+14*w0.2)
+eFLOPs_raw: 4.1861e+14, Normalized eFLOPs: 0.4890, CSV_Line: 60363
+Avg Reward: 0.6448, Training Loss: 0, Cache Hit: True
+Answer: OfflineAnswer | Ground Truth: None
+--------------------------------------------------------------------------------
+Problem ID: 103/210 (QueryID: test150_question50)
+Algorithm: lin_ucb, Diagonal: False
+Selected Model: qwen3-14b, QP: 8, CP: 2, BS: 1, Tokens: 5650
+Reward: 0.2909 (Acc=0.00*w0.4, Ver=0.44*w0.4, eFLOPs=2.00e+14*w0.2)
+eFLOPs_raw: 1.9958e+14, Normalized eFLOPs: 0.4216, CSV_Line: 60292
+Avg Reward: 0.6413, Training Loss: 0, Cache Hit: True
+Answer: OfflineAnswer | Ground Truth: None
+--------------------------------------------------------------------------------
+Problem ID: 104/210 (QueryID: test150_question103)
+Algorithm: lin_ucb, Diagonal: False
+Selected Model: qwen3-14b, QP: 8, CP: 2, BS: 1, Tokens: 348
+Reward: 0.9042 (Acc=1.00*w0.4, Ver=0.98*w0.4, eFLOPs=2.28e+14*w0.2)
+eFLOPs_raw: 2.2802e+14, Normalized eFLOPs: 0.4338, CSV_Line: 58690
+Avg Reward: 0.6439, Training Loss: 0, Cache Hit: True
+Answer: OfflineAnswer | Ground Truth: None
+--------------------------------------------------------------------------------
+Problem ID: 105/210 (QueryID: test150_question13)
+Algorithm: lin_ucb, Diagonal: False
+Selected Model: qwen3-14b, QP: 8, CP: 2, BS: 1, Tokens: 178
+Reward: 0.8978 (Acc=1.00*w0.4, Ver=0.97*w0.4, eFLOPs=2.84e+14*w0.2)
+eFLOPs_raw: 2.8394e+14, Normalized eFLOPs: 0.4537, CSV_Line: 59030
+Avg Reward: 0.6463, Training Loss: 0, Cache Hit: True
+Answer: OfflineAnswer | Ground Truth: None
+--------------------------------------------------------------------------------
+Problem ID: 106/210 (QueryID: test_aime_question28)
+Algorithm: lin_ucb, Diagonal: False
+Selected Model: qwen3-14b, QP: 8, CP: 2, BS: 1, Tokens: 12240
+Reward: 0.2658 (Acc=0.00*w0.4, Ver=0.50*w0.4, eFLOPs=3.10e+15*w0.2)
+eFLOPs_raw: 3.0956e+15, Normalized eFLOPs: 0.6711, CSV_Line: 2708
+Avg Reward: 0.6427, Training Loss: 0, Cache Hit: True
+Answer: OfflineAnswer | Ground Truth: None
+--------------------------------------------------------------------------------
+Problem ID: 107/210 (QueryID: test150_question134)
+Algorithm: lin_ucb, Diagonal: False
+Selected Model: qwen3-14b, QP: 8, CP: 2, BS: 1, Tokens: 184
+Reward: 0.8744 (Acc=1.00*w0.4, Ver=0.97*w0.4, eFLOPs=1.07e+15*w0.2)
+eFLOPs_raw: 1.0708e+15, Normalized eFLOPs: 0.5745, CSV_Line: 59302
+Avg Reward: 0.6448, Training Loss: 0, Cache Hit: True
+Answer: OfflineAnswer | Ground Truth: None
+--------------------------------------------------------------------------------
+Problem ID: 108/210 (QueryID: test150_question66)
+Algorithm: lin_ucb, Diagonal: False
+Selected Model: qwen3-14b, QP: 8, CP: 2, BS: 1, Tokens: 4460
+Reward: 0.4119 (Acc=0.00*w0.4, Ver=0.77*w0.4, eFLOPs=4.14e+14*w0.2)
+eFLOPs_raw: 4.1361e+14, Normalized eFLOPs: 0.4880, CSV_Line: 60614
+Avg Reward: 0.6427, Training Loss: 0, Cache Hit: True
+Answer: OfflineAnswer | Ground Truth: None
+--------------------------------------------------------------------------------
+Problem ID: 109/210 (QueryID: test_aime_question52)
+Algorithm: lin_ucb, Diagonal: False
+Selected Model: qwen3-14b, QP: 8, CP: 2, BS: 1, Tokens: 10759
+Reward: 0.2242 (Acc=0.00*w0.4, Ver=0.42*w0.4, eFLOPs=5.12e+15*w0.2)
+eFLOPs_raw: 5.1187e+15, Normalized eFLOPs: 0.7169, CSV_Line: 3196
+Avg Reward: 0.6388, Training Loss: 0, Cache Hit: True
+Answer: OfflineAnswer | Ground Truth: None
+--------------------------------------------------------------------------------
+Problem ID: 110/210 (QueryID: test150_question140)
+Algorithm: lin_ucb, Diagonal: False
+Selected Model: qwen3-14b, QP: 1, CP: 1, BS: 1, Tokens: 97
+Reward: 0.8899 (Acc=1.00*w0.4, Ver=0.98*w0.4, eFLOPs=5.33e+14*w0.2)
+eFLOPs_raw: 5.3253e+14, Normalized eFLOPs: 0.5110, CSV_Line: 42006
+Avg Reward: 0.6411, Training Loss: 0, Cache Hit: True
+Answer: OfflineAnswer | Ground Truth: None
+--------------------------------------------------------------------------------
+Problem ID: 111/210 (QueryID: test150_question44)
+Algorithm: lin_ucb, Diagonal: False
+Selected Model: qwen3-14b, QP: 8, CP: 2, BS: 1, Tokens: 715
+Reward: 0.4922 (Acc=0.00*w0.4, Ver=0.98*w0.4, eFLOPs=5.12e+14*w0.2)
+eFLOPs_raw: 5.1172e+14, Normalized eFLOPs: 0.5073, CSV_Line: 60182
+Avg Reward: 0.6398, Training Loss: 0, Cache Hit: True
+Answer: OfflineAnswer | Ground Truth: None
+--------------------------------------------------------------------------------
+Problem ID: 112/210 (QueryID: test_aime_question5)
+Algorithm: lin_ucb, Diagonal: False
+Selected Model: qwen3-14b, QP: 8, CP: 2, BS: 1, Tokens: 11360
+Reward: 0.3437 (Acc=0.00*w0.4, Ver=0.73*w0.4, eFLOPs=6.97e+15*w0.2)
+eFLOPs_raw: 6.9671e+15, Normalized eFLOPs: 0.7450, CSV_Line: 2961
+Avg Reward: 0.6371, Training Loss: 0, Cache Hit: True
+Answer: OfflineAnswer | Ground Truth: None
+--------------------------------------------------------------------------------
+Problem ID: 113/210 (QueryID: test150_question46)
+Algorithm: lin_ucb, Diagonal: False
+Selected Model: qwen3-14b, QP: 8, CP: 2, BS: 1, Tokens: 240
+Reward: 0.9041 (Acc=1.00*w0.4, Ver=0.97*w0.4, eFLOPs=1.93e+14*w0.2)
+eFLOPs_raw: 1.9346e+14, Normalized eFLOPs: 0.4188, CSV_Line: 60218
+Avg Reward: 0.6395, Training Loss: 0, Cache Hit: True
+Answer: OfflineAnswer | Ground Truth: None
+--------------------------------------------------------------------------------
+Problem ID: 114/210 (QueryID: test_aime_question30)
+Algorithm: lin_ucb, Diagonal: False
+Selected Model: qwen3-14b, QP: 1, CP: 1, BS: 1, Tokens: 669
+Reward: 0.2429 (Acc=0.00*w0.4, Ver=0.44*w0.4, eFLOPs=3.17e+15*w0.2)
+eFLOPs_raw: 3.1704e+15, Normalized eFLOPs: 0.6733, CSV_Line: 10922
+Avg Reward: 0.6360, Training Loss: 0, Cache Hit: True
+Answer: OfflineAnswer | Ground Truth: None
+--------------------------------------------------------------------------------
+Problem ID: 115/210 (QueryID: test150_question133)
+Algorithm: lin_ucb, Diagonal: False
+Selected Model: qwen3-14b, QP: 8, CP: 2, BS: 1, Tokens: 233
+Reward: 0.9016 (Acc=1.00*w0.4, Ver=0.99*w0.4, eFLOPs=3.58e+14*w0.2)
+eFLOPs_raw: 3.5825e+14, Normalized eFLOPs: 0.4749, CSV_Line: 59283
+Avg Reward: 0.6383, Training Loss: 0, Cache Hit: True
+Answer: OfflineAnswer | Ground Truth: None
+--------------------------------------------------------------------------------
+Problem ID: 116/210 (QueryID: test150_question40)
+Algorithm: lin_ucb, Diagonal: False
+Selected Model: qwen3-14b, QP: 8, CP: 2, BS: 1, Tokens: 2077
+Reward: 0.3012 (Acc=0.00*w0.4, Ver=0.53*w0.4, eFLOPs=7.90e+14*w0.2)
+eFLOPs_raw: 7.9045e+14, Normalized eFLOPs: 0.5469, CSV_Line: 60093
+Avg Reward: 0.6354, Training Loss: 0, Cache Hit: True
+Answer: OfflineAnswer | Ground Truth: None
+--------------------------------------------------------------------------------
+Problem ID: 117/210 (QueryID: test150_question39)
+Algorithm: lin_ucb, Diagonal: False
+Selected Model: qwen3-14b, QP: 8, CP: 2, BS: 1, Tokens: 1680
+Reward: 0.5007 (Acc=0.00*w0.4, Ver=0.98*w0.4, eFLOPs=3.14e+14*w0.2)
+eFLOPs_raw: 3.1370e+14, Normalized eFLOPs: 0.4628, CSV_Line: 60074
+Avg Reward: 0.6343, Training Loss: 0, Cache Hit: True
+Answer: OfflineAnswer | Ground Truth: None
+--------------------------------------------------------------------------------
+Problem ID: 118/210 (QueryID: test150_question122)
+Algorithm: lin_ucb, Diagonal: False
+Selected Model: qwen3-14b, QP: 8, CP: 2, BS: 1, Tokens: 252
+Reward: 0.8830 (Acc=1.00*w0.4, Ver=0.97*w0.4, eFLOPs=5.70e+14*w0.2)
+eFLOPs_raw: 5.7001e+14, Normalized eFLOPs: 0.5171, CSV_Line: 59067
+Avg Reward: 0.6364, Training Loss: 0, Cache Hit: True
+Answer: OfflineAnswer | Ground Truth: None
+--------------------------------------------------------------------------------
+Problem ID: 119/210 (QueryID: test150_question69)
+Algorithm: lin_ucb, Diagonal: False
+Selected Model: qwen3-14b, QP: 8, CP: 2, BS: 1, Tokens: 222
+Reward: 0.7637 (Acc=1.00*w0.4, Ver=0.61*w0.4, eFLOPs=1.77e+14*w0.2)
+eFLOPs_raw: 1.7736e+14, Normalized eFLOPs: 0.4109, CSV_Line: 60670
+Avg Reward: 0.6375, Training Loss: 0, Cache Hit: True
+Answer: OfflineAnswer | Ground Truth: None
+--------------------------------------------------------------------------------
+Problem ID: 120/210 (QueryID: test150_question112)
+Algorithm: lin_ucb, Diagonal: False
+Selected Model: qwen3-14b, QP: 8, CP: 2, BS: 1, Tokens: 1150
+Reward: 0.8873 (Acc=1.00*w0.4, Ver=1.00*w0.4, eFLOPs=8.61e+14*w0.2)
+eFLOPs_raw: 8.6146e+14, Normalized eFLOPs: 0.5547, CSV_Line: 58870
+Avg Reward: 0.6395, Training Loss: 0, Cache Hit: True
+Answer: OfflineAnswer | Ground Truth: None
+--------------------------------------------------------------------------------
+Problem ID: 121/210 (QueryID: test150_question149)
+Algorithm: lin_ucb, Diagonal: False
+Selected Model: qwen3-14b, QP: 8, CP: 2, BS: 1, Tokens: 8136
+Reward: 0.3805 (Acc=0.00*w0.4, Ver=0.69*w0.4, eFLOPs=4.10e+14*w0.2)
+eFLOPs_raw: 4.0985e+14, Normalized eFLOPs: 0.4871, CSV_Line: 59589
+Avg Reward: 0.6374, Training Loss: 0, Cache Hit: True
+Answer: OfflineAnswer | Ground Truth: None
+--------------------------------------------------------------------------------
+Problem ID: 122/210 (QueryID: test150_question121)
+Algorithm: lin_ucb, Diagonal: False
+Selected Model: qwen3-14b, QP: 8, CP: 2, BS: 1, Tokens: 189
+Reward: 0.9065 (Acc=1.00*w0.4, Ver=1.00*w0.4, eFLOPs=3.00e+14*w0.2)
+eFLOPs_raw: 2.9988e+14, Normalized eFLOPs: 0.4587, CSV_Line: 59050
+Avg Reward: 0.6396, Training Loss: 0, Cache Hit: True
+Answer: OfflineAnswer | Ground Truth: None
+--------------------------------------------------------------------------------
+Problem ID: 123/210 (QueryID: test150_question102)
+Algorithm: lin_ucb, Diagonal: False
+Selected Model: qwen3-14b, QP: 8, CP: 2, BS: 1, Tokens: 314
+Reward: 0.8763 (Acc=1.00*w0.4, Ver=0.94*w0.4, eFLOPs=4.90e+14*w0.2)
+eFLOPs_raw: 4.9017e+14, Normalized eFLOPs: 0.5034, CSV_Line: 58672
+Avg Reward: 0.6415, Training Loss: 0, Cache Hit: True
+Answer: OfflineAnswer | Ground Truth: None
+--------------------------------------------------------------------------------
+Problem ID: 124/210 (QueryID: test150_question22)
+Algorithm: lin_ucb, Diagonal: False
+Selected Model: qwen3-14b, QP: 8, CP: 2, BS: 1, Tokens: 3132
+Reward: 0.4206 (Acc=0.00*w0.4, Ver=0.80*w0.4, eFLOPs=4.57e+14*w0.2)
+eFLOPs_raw: 4.5699e+14, Normalized eFLOPs: 0.4970, CSV_Line: 59752
+Avg Reward: 0.6397, Training Loss: 0, Cache Hit: True
+Answer: OfflineAnswer | Ground Truth: None
+--------------------------------------------------------------------------------
+Problem ID: 125/210 (QueryID: test150_question68)
+Algorithm: lin_ucb, Diagonal: False
+Selected Model: qwen3-14b, QP: 8, CP: 2, BS: 1, Tokens: 466
+Reward: 0.8626 (Acc=1.00*w0.4, Ver=0.89*w0.4, eFLOPs=3.55e+14*w0.2)
+eFLOPs_raw: 3.5511e+14, Normalized eFLOPs: 0.4741, CSV_Line: 60650
+Avg Reward: 0.6415, Training Loss: 0, Cache Hit: True
+Answer: OfflineAnswer | Ground Truth: None
+--------------------------------------------------------------------------------
+Problem ID: 126/210 (QueryID: test_aime_question35)
+Algorithm: lin_ucb, Diagonal: False
+Selected Model: qwen3-14b, QP: 8, CP: 2, BS: 1, Tokens: 4625
+Reward: 0.7165 (Acc=1.00*w0.4, Ver=0.63*w0.4, eFLOPs=3.61e+15*w0.2)
+eFLOPs_raw: 3.6137e+15, Normalized eFLOPs: 0.6852, CSV_Line: 2854
+Avg Reward: 0.6421, Training Loss: 0, Cache Hit: True
+Answer: OfflineAnswer | Ground Truth: None
+--------------------------------------------------------------------------------
+Problem ID: 127/210 (QueryID: test_aime_question49)
+Algorithm: lin_ucb, Diagonal: False
+Selected Model: qwen3-14b, QP: 8, CP: 2, BS: 1, Tokens: 5076
+Reward: 0.2849 (Acc=0.00*w0.4, Ver=0.57*w0.4, eFLOPs=4.51e+15*w0.2)
+eFLOPs_raw: 4.5073e+15, Normalized eFLOPs: 0.7053, CSV_Line: 3124
+Avg Reward: 0.6393, Training Loss: 0, Cache Hit: True
+Answer: OfflineAnswer | Ground Truth: None
+--------------------------------------------------------------------------------
+Problem ID: 128/210 (QueryID: test150_question59)
+Algorithm: lin_ucb, Diagonal: False
+Selected Model: qwen3-14b, QP: 8, CP: 2, BS: 1, Tokens: 295
+Reward: 0.9035 (Acc=1.00*w0.4, Ver=0.98*w0.4, eFLOPs=2.52e+14*w0.2)
+eFLOPs_raw: 2.5229e+14, Normalized eFLOPs: 0.4430, CSV_Line: 60471
+Avg Reward: 0.6414, Training Loss: 0, Cache Hit: True
+Answer: OfflineAnswer | Ground Truth: None
+--------------------------------------------------------------------------------
+Problem ID: 129/210 (QueryID: test150_question77)
+Algorithm: lin_ucb, Diagonal: False
+Selected Model: qwen3-14b, QP: 1, CP: 1, BS: 1, Tokens: 145
+Reward: 0.8912 (Acc=1.00*w0.4, Ver=1.00*w0.4, eFLOPs=7.02e+14*w0.2)
+eFLOPs_raw: 7.0163e+14, Normalized eFLOPs: 0.5361, CSV_Line: 43666
+Avg Reward: 0.6433, Training Loss: 0, Cache Hit: True
+Answer: OfflineAnswer | Ground Truth: None
+--------------------------------------------------------------------------------
+Problem ID: 130/210 (QueryID: test150_question145)
+Algorithm: lin_ucb, Diagonal: False
+Selected Model: qwen3-14b, QP: 1, CP: 1, BS: 1, Tokens: 595
+Reward: 0.8236 (Acc=1.00*w0.4, Ver=0.89*w0.4, eFLOPs=2.81e+15*w0.2)
+eFLOPs_raw: 2.8110e+15, Normalized eFLOPs: 0.6624, CSV_Line: 42131
+Avg Reward: 0.6447, Training Loss: 0, Cache Hit: True
+Answer: OfflineAnswer | Ground Truth: None
+--------------------------------------------------------------------------------
+Problem ID: 131/210 (QueryID: test_aime_question44)
+Algorithm: lin_ucb, Diagonal: False
+Selected Model: qwen3-14b, QP: 8, CP: 2, BS: 1, Tokens: 7957
+Reward: 0.7586 (Acc=1.00*w0.4, Ver=0.67*w0.4, eFLOPs=7.97e+14*w0.2)
+eFLOPs_raw: 7.9720e+14, Normalized eFLOPs: 0.5477, CSV_Line: 3032
+Avg Reward: 0.6456, Training Loss: 0, Cache Hit: True
+Answer: OfflineAnswer | Ground Truth: None
+--------------------------------------------------------------------------------
+Problem ID: 132/210 (QueryID: test_aime_question19)
+Algorithm: lin_ucb, Diagonal: False
+Selected Model: qwen3-14b, QP: 1, CP: 1, BS: 1, Tokens: 1112
+Reward: 0.0443 (Acc=0.00*w0.4, Ver=0.00*w0.4, eFLOPs=1.01e+16*w0.2)
+eFLOPs_raw: 1.0079e+16, Normalized eFLOPs: 0.7786, CSV_Line: 10671
+Avg Reward: 0.6410, Training Loss: 0, Cache Hit: True
+Answer: OfflineAnswer | Ground Truth: None
+--------------------------------------------------------------------------------
+Problem ID: 133/210 (QueryID: test150_question9)
+Algorithm: lin_ucb, Diagonal: False
+Selected Model: qwen3-14b, QP: 1, CP: 1, BS: 1, Tokens: 234
+Reward: 0.4527 (Acc=0.00*w0.4, Ver=0.92*w0.4, eFLOPs=1.20e+15*w0.2)
+eFLOPs_raw: 1.2006e+15, Normalized eFLOPs: 0.5849, CSV_Line: 43748
+Avg Reward: 0.6396, Training Loss: 0, Cache Hit: True
+Answer: OfflineAnswer | Ground Truth: None
+--------------------------------------------------------------------------------
+Problem ID: 134/210 (QueryID: test_aime_question54)
+Algorithm: lin_ucb, Diagonal: False
+Selected Model: qwen3-14b, QP: 8, CP: 2, BS: 1, Tokens: 13015
+Reward: 0.3126 (Acc=0.00*w0.4, Ver=0.62*w0.4, eFLOPs=3.03e+15*w0.2)
+eFLOPs_raw: 3.0290e+15, Normalized eFLOPs: 0.6692, CSV_Line: 3230
+Avg Reward: 0.6372, Training Loss: 0, Cache Hit: True
+Answer: OfflineAnswer | Ground Truth: None
+--------------------------------------------------------------------------------
+Problem ID: 135/210 (QueryID: test150_question31)
+Algorithm: lin_ucb, Diagonal: False
+Selected Model: qwen3-14b, QP: 8, CP: 2, BS: 1, Tokens: 232
+Reward: 0.8884 (Acc=1.00*w0.4, Ver=0.95*w0.4, eFLOPs=2.69e+14*w0.2)
+eFLOPs_raw: 2.6910e+14, Normalized eFLOPs: 0.4488, CSV_Line: 59932
+Avg Reward: 0.6390, Training Loss: 0, Cache Hit: True
+Answer: OfflineAnswer | Ground Truth: None
+--------------------------------------------------------------------------------
+Problem ID: 136/210 (QueryID: test150_question35)
+Algorithm: lin_ucb, Diagonal: False
+Selected Model: qwen3-14b, QP: 8, CP: 2, BS: 1, Tokens: 220
+Reward: 0.8987 (Acc=1.00*w0.4, Ver=0.97*w0.4, eFLOPs=2.52e+14*w0.2)
+eFLOPs_raw: 2.5200e+14, Normalized eFLOPs: 0.4429, CSV_Line: 60004
+Avg Reward: 0.6409, Training Loss: 0, Cache Hit: True
+Answer: OfflineAnswer | Ground Truth: None
+--------------------------------------------------------------------------------
+Problem ID: 137/210 (QueryID: test_aime_question42)
+Algorithm: lin_ucb, Diagonal: False
+Selected Model: qwen3-14b, QP: 8, CP: 2, BS: 1, Tokens: 8384
+Reward: 0.2204 (Acc=0.00*w0.4, Ver=0.41*w0.4, eFLOPs=5.57e+15*w0.2)
+eFLOPs_raw: 5.5653e+15, Normalized eFLOPs: 0.7245, CSV_Line: 2996
+Avg Reward: 0.6379, Training Loss: 0, Cache Hit: True
+Answer: OfflineAnswer | Ground Truth: None
+--------------------------------------------------------------------------------
+Problem ID: 138/210 (QueryID: test150_question34)
+Algorithm: lin_ucb, Diagonal: False
+Selected Model: qwen3-14b, QP: 8, CP: 2, BS: 1, Tokens: 1150
+Reward: 0.4936 (Acc=0.00*w0.4, Ver=1.00*w0.4, eFLOPs=6.40e+14*w0.2)
+eFLOPs_raw: 6.3973e+14, Normalized eFLOPs: 0.5276, CSV_Line: 59985
+Avg Reward: 0.6368, Training Loss: 0, Cache Hit: True
+Answer: OfflineAnswer | Ground Truth: None
+--------------------------------------------------------------------------------
+Problem ID: 139/210 (QueryID: test150_question57)
+Algorithm: lin_ucb, Diagonal: False
+Selected Model: qwen3-14b, QP: 8, CP: 2, BS: 1, Tokens: 153
+Reward: 0.9036 (Acc=1.00*w0.4, Ver=0.98*w0.4, eFLOPs=2.53e+14*w0.2)
+eFLOPs_raw: 2.5332e+14, Normalized eFLOPs: 0.4433, CSV_Line: 60435
+Avg Reward: 0.6387, Training Loss: 0, Cache Hit: True
+Answer: OfflineAnswer | Ground Truth: None
+--------------------------------------------------------------------------------
+Problem ID: 140/210 (QueryID: test150_question111)
+Algorithm: lin_ucb, Diagonal: False
+Selected Model: qwen3-14b, QP: 8, CP: 2, BS: 1, Tokens: 2301
+Reward: 0.8894 (Acc=1.00*w0.4, Ver=0.96*w0.4, eFLOPs=3.69e+14*w0.2)
+eFLOPs_raw: 3.6910e+14, Normalized eFLOPs: 0.4776, CSV_Line: 58852
+Avg Reward: 0.6405, Training Loss: 0, Cache Hit: True
+Answer: OfflineAnswer | Ground Truth: None
+--------------------------------------------------------------------------------
+Problem ID: 141/210 (QueryID: test150_question105)
+Algorithm: lin_ucb, Diagonal: False
+Selected Model: qwen3-14b, QP: 8, CP: 2, BS: 1, Tokens: 3108
+Reward: 0.4123 (Acc=0.00*w0.4, Ver=0.75*w0.4, eFLOPs=2.31e+14*w0.2)
+eFLOPs_raw: 2.3097e+14, Normalized eFLOPs: 0.4349, CSV_Line: 58724
+Avg Reward: 0.6389, Training Loss: 0, Cache Hit: True
+Answer: OfflineAnswer | Ground Truth: None
+--------------------------------------------------------------------------------
+Problem ID: 142/210 (QueryID: test_aime_question26)
+Algorithm: lin_ucb, Diagonal: False
+Selected Model: qwen3-14b, QP: 8, CP: 2, BS: 1, Tokens: 14712
+Reward: 0.2753 (Acc=0.00*w0.4, Ver=0.50*w0.4, eFLOPs=1.83e+15*w0.2)
+eFLOPs_raw: 1.8316e+15, Normalized eFLOPs: 0.6234, CSV_Line: 2674
+Avg Reward: 0.6363, Training Loss: 0, Cache Hit: True
+Answer: OfflineAnswer | Ground Truth: None
+--------------------------------------------------------------------------------
+Problem ID: 143/210 (QueryID: test150_question139)
+Algorithm: lin_ucb, Diagonal: False
+Selected Model: qwen3-14b, QP: 8, CP: 2, BS: 1, Tokens: 18661
+Reward: 0.3405 (Acc=0.00*w0.4, Ver=0.58*w0.4, eFLOPs=2.99e+14*w0.2)
+eFLOPs_raw: 2.9911e+14, Normalized eFLOPs: 0.4585, CSV_Line: 59391
+Avg Reward: 0.6343, Training Loss: 0, Cache Hit: True
+Answer: OfflineAnswer | Ground Truth: None
+--------------------------------------------------------------------------------
+Problem ID: 144/210 (QueryID: test150_question94)
+Algorithm: lin_ucb, Diagonal: False
+Selected Model: qwen3-14b, QP: 1, CP: 1, BS: 1, Tokens: 222
+Reward: 0.8771 (Acc=1.00*w0.4, Ver=0.98*w0.4, eFLOPs=1.06e+15*w0.2)
+eFLOPs_raw: 1.0569e+15, Normalized eFLOPs: 0.5733, CSV_Line: 44063
+Avg Reward: 0.6360, Training Loss: 0, Cache Hit: True
+Answer: OfflineAnswer | Ground Truth: None
+--------------------------------------------------------------------------------
+Problem ID: 145/210 (QueryID: test150_question15)
+Algorithm: lin_ucb, Diagonal: False
+Selected Model: qwen3-14b, QP: 1, CP: 1, BS: 1, Tokens: 736
+Reward: 0.4290 (Acc=0.00*w0.4, Ver=0.91*w0.4, eFLOPs=3.55e+15*w0.2)
+eFLOPs_raw: 3.5510e+15, Normalized eFLOPs: 0.6836, CSV_Line: 42028
+Avg Reward: 0.6345, Training Loss: 0, Cache Hit: True
+Answer: OfflineAnswer | Ground Truth: None
+--------------------------------------------------------------------------------
+Problem ID: 146/210 (QueryID: test_aime_question59)
+Algorithm: lin_ucb, Diagonal: False
+Selected Model: qwen3-14b, QP: 1, CP: 1, BS: 1, Tokens: 1070
+Reward: 0.2713 (Acc=0.00*w0.4, Ver=0.54*w0.4, eFLOPs=5.12e+15*w0.2)
+eFLOPs_raw: 5.1162e+15, Normalized eFLOPs: 0.7169, CSV_Line: 11596
+Avg Reward: 0.6320, Training Loss: 0, Cache Hit: True
+Answer: OfflineAnswer | Ground Truth: None
+--------------------------------------------------------------------------------
+Problem ID: 147/210 (QueryID: test150_question99)
+Algorithm: lin_ucb, Diagonal: False
+Selected Model: qwen3-14b, QP: 8, CP: 2, BS: 1, Tokens: 410
+Reward: 0.8687 (Acc=1.00*w0.4, Ver=0.95*w0.4, eFLOPs=8.61e+14*w0.2)
+eFLOPs_raw: 8.6126e+14, Normalized eFLOPs: 0.5547, CSV_Line: 61263
+Avg Reward: 0.6337, Training Loss: 0, Cache Hit: True
+Answer: OfflineAnswer | Ground Truth: None
+--------------------------------------------------------------------------------
+Problem ID: 148/210 (QueryID: test_aime_question18)
+Algorithm: lin_ucb, Diagonal: False
+Selected Model: qwen3-14b, QP: 8, CP: 2, BS: 1, Tokens: 7807
+Reward: 0.7115 (Acc=1.00*w0.4, Ver=0.53*w0.4, eFLOPs=5.00e+14*w0.2)
+eFLOPs_raw: 4.9963e+14, Normalized eFLOPs: 0.5052, CSV_Line: 2512
+Avg Reward: 0.6342, Training Loss: 0, Cache Hit: True
+Answer: OfflineAnswer | Ground Truth: None
+--------------------------------------------------------------------------------
+Problem ID: 149/210 (QueryID: test_aime_question50)
+Algorithm: lin_ucb, Diagonal: False
+Selected Model: qwen3-14b, QP: 8, CP: 2, BS: 1, Tokens: 4613
+Reward: 0.3020 (Acc=0.00*w0.4, Ver=0.62*w0.4, eFLOPs=5.53e+15*w0.2)
+eFLOPs_raw: 5.5298e+15, Normalized eFLOPs: 0.7239, CSV_Line: 3141
+Avg Reward: 0.6320, Training Loss: 0, Cache Hit: True
+Answer: OfflineAnswer | Ground Truth: None
+--------------------------------------------------------------------------------
+Problem ID: 150/210 (QueryID: test150_question88)
+Algorithm: lin_ucb, Diagonal: False
+Selected Model: qwen3-14b, QP: 8, CP: 2, BS: 1, Tokens: 7814
+Reward: 0.8586 (Acc=1.00*w0.4, Ver=0.92*w0.4, eFLOPs=8.01e+14*w0.2)
+eFLOPs_raw: 8.0085e+14, Normalized eFLOPs: 0.5481, CSV_Line: 61047
+Avg Reward: 0.6335, Training Loss: 0, Cache Hit: True
+Answer: OfflineAnswer | Ground Truth: None
+--------------------------------------------------------------------------------
+Problem ID: 151/210 (QueryID: test150_question33)
+Algorithm: lin_ucb, Diagonal: False
+Selected Model: qwen3-8b, QP: 2, CP: 8, BS: 2, Tokens: 564
+Reward: 0.3053 (Acc=0.00*w0.4, Ver=0.51*w0.4, eFLOPs=4.76e+14*w0.2)
+eFLOPs_raw: 4.7595e+14, Normalized eFLOPs: 0.5007, CSV_Line: 89660
+Avg Reward: 0.6313, Training Loss: 0, Cache Hit: True
+Answer: OfflineAnswer | Ground Truth: None
+--------------------------------------------------------------------------------
+Problem ID: 152/210 (QueryID: test150_question16)
+Algorithm: lin_ucb, Diagonal: False
+Selected Model: qwen3-14b, QP: 8, CP: 2, BS: 1, Tokens: 147
+Reward: 0.8592 (Acc=1.00*w0.4, Ver=0.92*w0.4, eFLOPs=6.92e+14*w0.2)
+eFLOPs_raw: 6.9199e+14, Normalized eFLOPs: 0.5348, CSV_Line: 59624
+Avg Reward: 0.6328, Training Loss: 0, Cache Hit: True
+Answer: OfflineAnswer | Ground Truth: None
+--------------------------------------------------------------------------------
+Problem ID: 153/210 (QueryID: test150_question82)
+Algorithm: lin_ucb, Diagonal: False
+Selected Model: qwen3-14b, QP: 8, CP: 2, BS: 1, Tokens: 185
+Reward: 0.8950 (Acc=1.00*w0.4, Ver=0.99*w0.4, eFLOPs=4.78e+14*w0.2)
+eFLOPs_raw: 4.7835e+14, Normalized eFLOPs: 0.5012, CSV_Line: 60940
+Avg Reward: 0.6345, Training Loss: 0, Cache Hit: True
+Answer: OfflineAnswer | Ground Truth: None
+--------------------------------------------------------------------------------
+Problem ID: 154/210 (QueryID: test_aime_question21)
+Algorithm: lin_ucb, Diagonal: False
+Selected Model: qwen3-14b, QP: 8, CP: 2, BS: 1, Tokens: 12402
+Reward: 0.4507 (Acc=0.00*w0.4, Ver=0.88*w0.4, eFLOPs=5.27e+14*w0.2)
+eFLOPs_raw: 5.2669e+14, Normalized eFLOPs: 0.5100, CSV_Line: 2583
+Avg Reward: 0.6333, Training Loss: 0, Cache Hit: True
+Answer: OfflineAnswer | Ground Truth: None
+--------------------------------------------------------------------------------
+Problem ID: 155/210 (QueryID: test150_question37)
+Algorithm: lin_ucb, Diagonal: False
+Selected Model: qwen3-14b, QP: 8, CP: 2, BS: 1, Tokens: 1180
+Reward: 0.7498 (Acc=1.00*w0.4, Ver=0.63*w0.4, eFLOPs=5.83e+14*w0.2)
+eFLOPs_raw: 5.8277e+14, Normalized eFLOPs: 0.5192, CSV_Line: 60039
+Avg Reward: 0.6341, Training Loss: 0, Cache Hit: True
+Answer: OfflineAnswer | Ground Truth: None
+--------------------------------------------------------------------------------
+Problem ID: 156/210 (QueryID: test_aime_question32)
+Algorithm: lin_ucb, Diagonal: False
+Selected Model: qwen3-14b, QP: 8, CP: 2, BS: 1, Tokens: 11287
+Reward: 0.2462 (Acc=0.00*w0.4, Ver=0.48*w0.4, eFLOPs=6.50e+15*w0.2)
+eFLOPs_raw: 6.4967e+15, Normalized eFLOPs: 0.7386, CSV_Line: 2798
+Avg Reward: 0.6316, Training Loss: 0, Cache Hit: True
+Answer: OfflineAnswer | Ground Truth: None
+--------------------------------------------------------------------------------
+Problem ID: 157/210 (QueryID: test150_question78)
+Algorithm: lin_ucb, Diagonal: False
+Selected Model: qwen3-14b, QP: 8, CP: 2, BS: 1, Tokens: 132
+Reward: 0.8934 (Acc=1.00*w0.4, Ver=0.99*w0.4, eFLOPs=5.65e+14*w0.2)
+eFLOPs_raw: 5.6459e+14, Normalized eFLOPs: 0.5163, CSV_Line: 60848
+Avg Reward: 0.6332, Training Loss: 0, Cache Hit: True
+Answer: OfflineAnswer | Ground Truth: None
+--------------------------------------------------------------------------------
+Problem ID: 158/210 (QueryID: test150_question58)
+Algorithm: lin_ucb, Diagonal: False
+Selected Model: qwen3-14b, QP: 8, CP: 2, BS: 1, Tokens: 162
+Reward: 0.8895 (Acc=1.00*w0.4, Ver=0.95*w0.4, eFLOPs=3.07e+14*w0.2)
+eFLOPs_raw: 3.0682e+14, Normalized eFLOPs: 0.4608, CSV_Line: 60453
+Avg Reward: 0.6349, Training Loss: 0, Cache Hit: True
+Answer: OfflineAnswer | Ground Truth: None
+--------------------------------------------------------------------------------
+Problem ID: 159/210 (QueryID: test_aime_question12)
+Algorithm: lin_ucb, Diagonal: False
+Selected Model: qwen3-14b, QP: 8, CP: 2, BS: 1, Tokens: 12444
+Reward: 0.3549 (Acc=0.00*w0.4, Ver=0.65*w0.4, eFLOPs=5.78e+14*w0.2)
+eFLOPs_raw: 5.7788e+14, Normalized eFLOPs: 0.5184, CSV_Line: 2402
+Avg Reward: 0.6331, Training Loss: 0, Cache Hit: True
+Answer: OfflineAnswer | Ground Truth: None
+--------------------------------------------------------------------------------
+Problem ID: 160/210 (QueryID: test150_question8)
+Algorithm: lin_ucb, Diagonal: False
+Selected Model: qwen3-14b, QP: 8, CP: 2, BS: 1, Tokens: 2968
+Reward: 0.4735 (Acc=0.00*w0.4, Ver=0.90*w0.4, eFLOPs=2.49e+14*w0.2)
+eFLOPs_raw: 2.4865e+14, Normalized eFLOPs: 0.4416, CSV_Line: 60706
+Avg Reward: 0.6321, Training Loss: 0, Cache Hit: True
+Answer: OfflineAnswer | Ground Truth: None
+--------------------------------------------------------------------------------
+Problem ID: 161/210 (QueryID: test150_question128)
+Algorithm: lin_ucb, Diagonal: False
+Selected Model: qwen3-14b, QP: 8, CP: 2, BS: 1, Tokens: 5005
+Reward: 0.3861 (Acc=0.00*w0.4, Ver=0.68*w0.4, eFLOPs=2.09e+14*w0.2)
+eFLOPs_raw: 2.0859e+14, Normalized eFLOPs: 0.4257, CSV_Line: 59175
+Avg Reward: 0.6306, Training Loss: 0, Cache Hit: True
+Answer: OfflineAnswer | Ground Truth: None
+--------------------------------------------------------------------------------
+Problem ID: 162/210 (QueryID: test150_question29)
+Algorithm: lin_ucb, Diagonal: False
+Selected Model: qwen3-32b, QP: 8, CP: 2, BS: 1, Tokens: 376
+Reward: 0.8438 (Acc=1.00*w0.4, Ver=0.87*w0.4, eFLOPs=5.66e+14*w0.2)
+eFLOPs_raw: 5.6584e+14, Normalized eFLOPs: 0.5165, CSV_Line: 101276
+Avg Reward: 0.6319, Training Loss: 0, Cache Hit: True
+Answer: OfflineAnswer | Ground Truth: None
+--------------------------------------------------------------------------------
+Problem ID: 163/210 (QueryID: test150_question32)
+Algorithm: lin_ucb, Diagonal: False
+Selected Model: qwen3-32b, QP: 8, CP: 2, BS: 1, Tokens: 104
+Reward: 0.9021 (Acc=1.00*w0.4, Ver=0.98*w0.4, eFLOPs=2.84e+14*w0.2)
+eFLOPs_raw: 2.8439e+14, Normalized eFLOPs: 0.4539, CSV_Line: 101350
+Avg Reward: 0.6336, Training Loss: 0, Cache Hit: True
+Answer: OfflineAnswer | Ground Truth: None
+--------------------------------------------------------------------------------
+Problem ID: 164/210 (QueryID: test_aime_question25)
+Algorithm: lin_ucb, Diagonal: False
+Selected Model: qwen3-32b, QP: 8, CP: 2, BS: 1, Tokens: 6539
+Reward: 0.2819 (Acc=0.00*w0.4, Ver=0.51*w0.4, eFLOPs=1.51e+15*w0.2)
+eFLOPs_raw: 1.5095e+15, Normalized eFLOPs: 0.6058, CSV_Line: 23535
+Avg Reward: 0.6314, Training Loss: 0, Cache Hit: True
+Answer: OfflineAnswer | Ground Truth: None
+--------------------------------------------------------------------------------
+Problem ID: 165/210 (QueryID: test150_question38)
+Algorithm: lin_ucb, Diagonal: False
+Selected Model: qwen3-14b, QP: 8, CP: 2, BS: 1, Tokens: 76
+Reward: 0.8910 (Acc=1.00*w0.4, Ver=1.00*w0.4, eFLOPs=7.18e+14*w0.2)
+eFLOPs_raw: 7.1764e+14, Normalized eFLOPs: 0.5381, CSV_Line: 60058
+Avg Reward: 0.6330, Training Loss: 0, Cache Hit: True
+Answer: OfflineAnswer | Ground Truth: None
+--------------------------------------------------------------------------------
+Problem ID: 166/210 (QueryID: test150_question132)
+Algorithm: lin_ucb, Diagonal: False
+Selected Model: qwen3-14b, QP: 8, CP: 2, BS: 1, Tokens: 562
+Reward: 0.7836 (Acc=1.00*w0.4, Ver=0.73*w0.4, eFLOPs=7.00e+14*w0.2)
+eFLOPs_raw: 6.9999e+14, Normalized eFLOPs: 0.5358, CSV_Line: 59266
+Avg Reward: 0.6339, Training Loss: 0, Cache Hit: True
+Answer: OfflineAnswer | Ground Truth: None
+--------------------------------------------------------------------------------
+Problem ID: 167/210 (QueryID: test150_question141)
+Algorithm: lin_ucb, Diagonal: False
+Selected Model: qwen3-14b, QP: 8, CP: 2, BS: 1, Tokens: 341
+Reward: 0.8751 (Acc=1.00*w0.4, Ver=0.94*w0.4, eFLOPs=5.02e+14*w0.2)
+eFLOPs_raw: 5.0169e+14, Normalized eFLOPs: 0.5055, CSV_Line: 59445
+Avg Reward: 0.6353, Training Loss: 0, Cache Hit: True
+Answer: OfflineAnswer | Ground Truth: None
+--------------------------------------------------------------------------------
+Problem ID: 168/210 (QueryID: test150_question27)
+Algorithm: lin_ucb, Diagonal: False
+Selected Model: qwen3-14b, QP: 8, CP: 2, BS: 1, Tokens: 2938
+Reward: 0.4081 (Acc=0.00*w0.4, Ver=0.76*w0.4, eFLOPs=3.52e+14*w0.2)
+eFLOPs_raw: 3.5163e+14, Normalized eFLOPs: 0.4732, CSV_Line: 59842
+Avg Reward: 0.6340, Training Loss: 0, Cache Hit: True
+Answer: OfflineAnswer | Ground Truth: None
+--------------------------------------------------------------------------------
+Problem ID: 169/210 (QueryID: test150_question131)
+Algorithm: lin_ucb, Diagonal: False
+Selected Model: qwen3-14b, QP: 8, CP: 2, BS: 1, Tokens: 666
+Reward: 0.7922 (Acc=1.00*w0.4, Ver=0.71*w0.4, eFLOPs=3.25e+14*w0.2)
+eFLOPs_raw: 3.2474e+14, Normalized eFLOPs: 0.4659, CSV_Line: 59246
+Avg Reward: 0.6349, Training Loss: 0, Cache Hit: True
+Answer: OfflineAnswer | Ground Truth: None
+--------------------------------------------------------------------------------
+Problem ID: 170/210 (QueryID: test_aime_question40)
+Algorithm: lin_ucb, Diagonal: False
+Selected Model: qwen3-14b, QP: 8, CP: 2, BS: 1, Tokens: 4177
+Reward: 0.4074 (Acc=0.00*w0.4, Ver=0.86*w0.4, eFLOPs=3.19e+15*w0.2)
+eFLOPs_raw: 3.1908e+15, Normalized eFLOPs: 0.6739, CSV_Line: 2942
+Avg Reward: 0.6336, Training Loss: 0, Cache Hit: True
+Answer: OfflineAnswer | Ground Truth: None
+--------------------------------------------------------------------------------
+Problem ID: 171/210 (QueryID: test150_question116)
+Algorithm: lin_ucb, Diagonal: False
+Selected Model: qwen3-14b, QP: 8, CP: 2, BS: 1, Tokens: 416
+Reward: 0.5470 (Acc=1.00*w0.4, Ver=0.13*w0.4, eFLOPs=5.73e+14*w0.2)
+eFLOPs_raw: 5.7272e+14, Normalized eFLOPs: 0.5176, CSV_Line: 58940
+Avg Reward: 0.6331, Training Loss: 0, Cache Hit: True
+Answer: OfflineAnswer | Ground Truth: None
+--------------------------------------------------------------------------------
+Problem ID: 172/210 (QueryID: test150_question28)
+Algorithm: lin_ucb, Diagonal: False
+Selected Model: qwen3-14b, QP: 8, CP: 2, BS: 1, Tokens: 1888
+Reward: 0.8507 (Acc=1.00*w0.4, Ver=0.90*w0.4, eFLOPs=8.19e+14*w0.2)
+eFLOPs_raw: 8.1920e+14, Normalized eFLOPs: 0.5502, CSV_Line: 59860
+Avg Reward: 0.6343, Training Loss: 0, Cache Hit: True
+Answer: OfflineAnswer | Ground Truth: None
+--------------------------------------------------------------------------------
+Problem ID: 173/210 (QueryID: test150_question135)
+Algorithm: lin_ucb, Diagonal: False
+Selected Model: qwen3-14b, QP: 8, CP: 2, BS: 1, Tokens: 14270
+Reward: 0.4607 (Acc=0.00*w0.4, Ver=0.89*w0.4, eFLOPs=3.51e+14*w0.2)
+eFLOPs_raw: 3.5116e+14, Normalized eFLOPs: 0.4731, CSV_Line: 59318
+Avg Reward: 0.6333, Training Loss: 0, Cache Hit: True
+Answer: OfflineAnswer | Ground Truth: None
+--------------------------------------------------------------------------------
+Problem ID: 174/210 (QueryID: test_aime_question41)
+Algorithm: lin_ucb, Diagonal: False
+Selected Model: qwen3-14b, QP: 8, CP: 2, BS: 1, Tokens: 17503
+Reward: 0.2233 (Acc=0.00*w0.4, Ver=0.34*w0.4, eFLOPs=8.65e+14*w0.2)
+eFLOPs_raw: 8.6524e+14, Normalized eFLOPs: 0.5551, CSV_Line: 2980
+Avg Reward: 0.6310, Training Loss: 0, Cache Hit: True
+Answer: OfflineAnswer | Ground Truth: None
+--------------------------------------------------------------------------------
+Problem ID: 175/210 (QueryID: test_aime_question2)
+Algorithm: lin_ucb, Diagonal: False
+Selected Model: qwen3-14b, QP: 8, CP: 2, BS: 1, Tokens: 697
+Reward: 0.8694 (Acc=1.00*w0.4, Ver=0.97*w0.4, eFLOPs=1.19e+15*w0.2)
+eFLOPs_raw: 1.1873e+15, Normalized eFLOPs: 0.5839, CSV_Line: 2366
+Avg Reward: 0.6323, Training Loss: 0, Cache Hit: True
+Answer: OfflineAnswer | Ground Truth: None
+--------------------------------------------------------------------------------
+Problem ID: 176/210 (QueryID: test150_question12)
+Algorithm: lin_ucb, Diagonal: False
+Selected Model: qwen3-14b, QP: 8, CP: 2, BS: 1, Tokens: 169
+Reward: 0.8752 (Acc=1.00*w0.4, Ver=0.93*w0.4, eFLOPs=3.73e+14*w0.2)
+eFLOPs_raw: 3.7332e+14, Normalized eFLOPs: 0.4786, CSV_Line: 58833
+Avg Reward: 0.6337, Training Loss: 0, Cache Hit: True
+Answer: OfflineAnswer | Ground Truth: None
+--------------------------------------------------------------------------------
+Problem ID: 177/210 (QueryID: test150_question91)
+Algorithm: lin_ucb, Diagonal: False
+Selected Model: qwen3-14b, QP: 8, CP: 2, BS: 1, Tokens: 419
+Reward: 0.8595 (Acc=1.00*w0.4, Ver=0.97*w0.4, eFLOPs=2.10e+15*w0.2)
+eFLOPs_raw: 2.0959e+15, Normalized eFLOPs: 0.6357, CSV_Line: 61120
+Avg Reward: 0.6350, Training Loss: 0, Cache Hit: True
+Answer: OfflineAnswer | Ground Truth: None
+--------------------------------------------------------------------------------
+Problem ID: 178/210 (QueryID: test150_question55)
+Algorithm: lin_ucb, Diagonal: False
+Selected Model: qwen3-8b, QP: 2, CP: 8, BS: 2, Tokens: 3582
+Reward: 0.4594 (Acc=0.00*w0.4, Ver=0.89*w0.4, eFLOPs=4.06e+14*w0.2)
+eFLOPs_raw: 4.0621e+14, Normalized eFLOPs: 0.4863, CSV_Line: 89950
+Avg Reward: 0.6340, Training Loss: 0, Cache Hit: True
+Answer: OfflineAnswer | Ground Truth: None
+--------------------------------------------------------------------------------
+Problem ID: 179/210 (QueryID: test_aime_question57)
+Algorithm: lin_ucb, Diagonal: False
+Selected Model: qwen3-14b, QP: 8, CP: 2, BS: 1, Tokens: 13450
+Reward: 0.2976 (Acc=0.00*w0.4, Ver=0.64*w0.4, eFLOPs=1.23e+16*w0.2)
+eFLOPs_raw: 1.2317e+16, Normalized eFLOPs: 0.7968, CSV_Line: 3284
+Avg Reward: 0.6321, Training Loss: 0, Cache Hit: True
+Answer: OfflineAnswer | Ground Truth: None
+--------------------------------------------------------------------------------
+Problem ID: 180/210 (QueryID: test150_question48)
+Algorithm: lin_ucb, Diagonal: False
+Selected Model: qwen3-14b, QP: 8, CP: 2, BS: 1, Tokens: 207
+Reward: 0.7812 (Acc=1.00*w0.4, Ver=0.72*w0.4, eFLOPs=6.41e+14*w0.2)
+eFLOPs_raw: 6.4071e+14, Normalized eFLOPs: 0.5278, CSV_Line: 60255
+Avg Reward: 0.6330, Training Loss: 0, Cache Hit: True
+Answer: OfflineAnswer | Ground Truth: None
+--------------------------------------------------------------------------------
+Problem ID: 181/210 (QueryID: test150_question138)
+Algorithm: lin_ucb, Diagonal: False
+Selected Model: qwen3-14b, QP: 8, CP: 2, BS: 1, Tokens: 5995
+Reward: 0.4600 (Acc=0.00*w0.4, Ver=0.90*w0.4, eFLOPs=5.22e+14*w0.2)
+eFLOPs_raw: 5.2175e+14, Normalized eFLOPs: 0.5091, CSV_Line: 59372
+Avg Reward: 0.6320, Training Loss: 0, Cache Hit: True
+Answer: OfflineAnswer | Ground Truth: None
+--------------------------------------------------------------------------------
+Problem ID: 182/210 (QueryID: test150_question120)
+Algorithm: lin_ucb, Diagonal: False
+Selected Model: qwen3-14b, QP: 8, CP: 2, BS: 1, Tokens: 2919
+Reward: 0.4768 (Acc=0.00*w0.4, Ver=0.95*w0.4, eFLOPs=5.90e+14*w0.2)
+eFLOPs_raw: 5.8960e+14, Normalized eFLOPs: 0.5202, CSV_Line: 59012
+Avg Reward: 0.6312, Training Loss: 0, Cache Hit: True
+Answer: OfflineAnswer | Ground Truth: None
+--------------------------------------------------------------------------------
+Problem ID: 183/210 (QueryID: test150_question107)
+Algorithm: lin_ucb, Diagonal: False
+Selected Model: qwen3-14b, QP: 8, CP: 2, BS: 1, Tokens: 233
+Reward: 0.9033 (Acc=1.00*w0.4, Ver=0.99*w0.4, eFLOPs=3.11e+14*w0.2)
+eFLOPs_raw: 3.1079e+14, Normalized eFLOPs: 0.4619, CSV_Line: 58761
+Avg Reward: 0.6326, Training Loss: 0, Cache Hit: True
+Answer: OfflineAnswer | Ground Truth: None
+--------------------------------------------------------------------------------
+Problem ID: 184/210 (QueryID: test150_question124)
+Algorithm: lin_ucb, Diagonal: False
+Selected Model: qwen3-14b, QP: 8, CP: 2, BS: 1, Tokens: 1761
+Reward: 0.5157 (Acc=0.00*w0.4, Ver=0.99*w0.4, eFLOPs=1.76e+14*w0.2)
+eFLOPs_raw: 1.7585e+14, Normalized eFLOPs: 0.4101, CSV_Line: 59103
+Avg Reward: 0.6320, Training Loss: 0, Cache Hit: True
+Answer: OfflineAnswer | Ground Truth: None
+--------------------------------------------------------------------------------
+Problem ID: 185/210 (QueryID: test_aime_question51)
+Algorithm: lin_ucb, Diagonal: False
+Selected Model: qwen3-14b, QP: 8, CP: 2, BS: 1, Tokens: 8925
+Reward: 0.6192 (Acc=1.00*w0.4, Ver=0.32*w0.4, eFLOPs=8.54e+14*w0.2)
+eFLOPs_raw: 8.5372e+14, Normalized eFLOPs: 0.5539, CSV_Line: 3176
+Avg Reward: 0.6319, Training Loss: 0, Cache Hit: True
+Answer: OfflineAnswer | Ground Truth: None
+--------------------------------------------------------------------------------
+Problem ID: 186/210 (QueryID: test150_question84)
+Algorithm: lin_ucb, Diagonal: False
+Selected Model: qwen3-14b, QP: 8, CP: 2, BS: 1, Tokens: 848
+Reward: 0.8607 (Acc=1.00*w0.4, Ver=0.88*w0.4, eFLOPs=3.03e+14*w0.2)
+eFLOPs_raw: 3.0335e+14, Normalized eFLOPs: 0.4597, CSV_Line: 60975
+Avg Reward: 0.6332, Training Loss: 0, Cache Hit: True
+Answer: OfflineAnswer | Ground Truth: None
+--------------------------------------------------------------------------------
+Problem ID: 187/210 (QueryID: test150_question148)
+Algorithm: lin_ucb, Diagonal: False
+Selected Model: qwen3-14b, QP: 8, CP: 2, BS: 1, Tokens: 216
+Reward: 0.8921 (Acc=1.00*w0.4, Ver=0.95*w0.4, eFLOPs=2.68e+14*w0.2)
+eFLOPs_raw: 2.6827e+14, Normalized eFLOPs: 0.4486, CSV_Line: 59570
+Avg Reward: 0.6345, Training Loss: 0, Cache Hit: True
+Answer: OfflineAnswer | Ground Truth: None
+--------------------------------------------------------------------------------
+Problem ID: 188/210 (QueryID: test150_question95)
+Algorithm: lin_ucb, Diagonal: False
+Selected Model: qwen3-14b, QP: 8, CP: 2, BS: 1, Tokens: 231
+Reward: 0.8864 (Acc=1.00*w0.4, Ver=0.98*w0.4, eFLOPs=5.98e+14*w0.2)
+eFLOPs_raw: 5.9768e+14, Normalized eFLOPs: 0.5215, CSV_Line: 61192
+Avg Reward: 0.6359, Training Loss: 0, Cache Hit: True
+Answer: OfflineAnswer | Ground Truth: None
+--------------------------------------------------------------------------------
+Problem ID: 189/210 (QueryID: test150_question70)
+Algorithm: lin_ucb, Diagonal: False
+Selected Model: qwen3-14b, QP: 8, CP: 2, BS: 1, Tokens: 142
+Reward: 0.8991 (Acc=1.00*w0.4, Ver=0.97*w0.4, eFLOPs=2.55e+14*w0.2)
+eFLOPs_raw: 2.5468e+14, Normalized eFLOPs: 0.4438, CSV_Line: 60686
+Avg Reward: 0.6373, Training Loss: 0, Cache Hit: True
+Answer: OfflineAnswer | Ground Truth: None
+--------------------------------------------------------------------------------
+Problem ID: 190/210 (QueryID: test_aime_question60)
+Algorithm: lin_ucb, Diagonal: False
+Selected Model: qwen3-14b, QP: 8, CP: 2, BS: 1, Tokens: 11041
+Reward: 0.2976 (Acc=0.00*w0.4, Ver=0.50*w0.4, eFLOPs=5.38e+14*w0.2)
+eFLOPs_raw: 5.3760e+14, Normalized eFLOPs: 0.5118, CSV_Line: 3340
+Avg Reward: 0.6355, Training Loss: 0, Cache Hit: True
+Answer: OfflineAnswer | Ground Truth: None
+--------------------------------------------------------------------------------
+Problem ID: 191/210 (QueryID: test_aime_question56)
+Algorithm: lin_ucb, Diagonal: False
+Selected Model: qwen3-14b, QP: 8, CP: 2, BS: 1, Tokens: 7024
+Reward: 0.2566 (Acc=0.00*w0.4, Ver=0.39*w0.4, eFLOPs=4.28e+14*w0.2)
+eFLOPs_raw: 4.2808e+14, Normalized eFLOPs: 0.4911, CSV_Line: 3266
+Avg Reward: 0.6335, Training Loss: 0, Cache Hit: True
+Answer: OfflineAnswer | Ground Truth: None
+--------------------------------------------------------------------------------
+Problem ID: 192/210 (QueryID: test_aime_question24)
+Algorithm: lin_ucb, Diagonal: False
+Selected Model: qwen3-14b, QP: 8, CP: 2, BS: 1, Tokens: 7532
+Reward: 0.2960 (Acc=0.00*w0.4, Ver=0.50*w0.4, eFLOPs=5.88e+14*w0.2)
+eFLOPs_raw: 5.8837e+14, Normalized eFLOPs: 0.5200, CSV_Line: 2637
+Avg Reward: 0.6318, Training Loss: 0, Cache Hit: True
+Answer: OfflineAnswer | Ground Truth: None
+--------------------------------------------------------------------------------
+Problem ID: 193/210 (QueryID: test_aime_question8)
+Algorithm: lin_ucb, Diagonal: False
+Selected Model: qwen3-14b, QP: 8, CP: 2, BS: 1, Tokens: 12109
+Reward: 0.2834 (Acc=0.00*w0.4, Ver=0.53*w0.4, eFLOPs=2.38e+15*w0.2)
+eFLOPs_raw: 2.3845e+15, Normalized eFLOPs: 0.6474, CSV_Line: 3376
+Avg Reward: 0.6299, Training Loss: 0, Cache Hit: True
+Answer: OfflineAnswer | Ground Truth: None
+--------------------------------------------------------------------------------
+Problem ID: 194/210 (QueryID: test_aime_question9)
+Algorithm: lin_ucb, Diagonal: False
+Selected Model: qwen3-14b, QP: 8, CP: 2, BS: 1, Tokens: 7251
+Reward: 0.6528 (Acc=1.00*w0.4, Ver=0.39*w0.4, eFLOPs=6.25e+14*w0.2)
+eFLOPs_raw: 6.2487e+14, Normalized eFLOPs: 0.5255, CSV_Line: 3393
+Avg Reward: 0.6301, Training Loss: 0, Cache Hit: True
+Answer: OfflineAnswer | Ground Truth: None
+--------------------------------------------------------------------------------
+Problem ID: 195/210 (QueryID: test150_question49)
+Algorithm: lin_ucb, Diagonal: False
+Selected Model: qwen3-14b, QP: 8, CP: 2, BS: 1, Tokens: 1483
+Reward: 0.4877 (Acc=0.00*w0.4, Ver=0.99*w0.4, eFLOPs=7.30e+14*w0.2)
+eFLOPs_raw: 7.3035e+14, Normalized eFLOPs: 0.5397, CSV_Line: 60274
+Avg Reward: 0.6293, Training Loss: 0, Cache Hit: True
+Answer: OfflineAnswer | Ground Truth: None
+--------------------------------------------------------------------------------
+Problem ID: 196/210 (QueryID: test150_question92)
+Algorithm: lin_ucb, Diagonal: False
+Selected Model: qwen3-14b, QP: 8, CP: 2, BS: 1, Tokens: 2145
+Reward: 0.4777 (Acc=0.00*w0.4, Ver=0.95*w0.4, eFLOPs=5.64e+14*w0.2)
+eFLOPs_raw: 5.6364e+14, Normalized eFLOPs: 0.5161, CSV_Line: 61138
+Avg Reward: 0.6286, Training Loss: 0, Cache Hit: True
+Answer: OfflineAnswer | Ground Truth: None
+--------------------------------------------------------------------------------
+Problem ID: 197/210 (QueryID: test_aime_question23)
+Algorithm: lin_ucb, Diagonal: False
+Selected Model: qwen3-14b, QP: 8, CP: 2, BS: 1, Tokens: 11086
+Reward: 0.2585 (Acc=0.00*w0.4, Ver=0.51*w0.4, eFLOPs=5.87e+15*w0.2)
+eFLOPs_raw: 5.8665e+15, Normalized eFLOPs: 0.7293, CSV_Line: 2618
+Avg Reward: 0.6267, Training Loss: 0, Cache Hit: True
+Answer: OfflineAnswer | Ground Truth: None
+--------------------------------------------------------------------------------
+Problem ID: 198/210 (QueryID: test150_question80)
+Algorithm: lin_ucb, Diagonal: False
+Selected Model: qwen3-14b, QP: 1, CP: 1, BS: 1, Tokens: 361
+Reward: 0.7965 (Acc=1.00*w0.4, Ver=0.80*w0.4, eFLOPs=1.80e+15*w0.2)
+eFLOPs_raw: 1.8022e+15, Normalized eFLOPs: 0.6219, CSV_Line: 43727
+Avg Reward: 0.6275, Training Loss: 0, Cache Hit: True
+Answer: OfflineAnswer | Ground Truth: None
+--------------------------------------------------------------------------------
+Problem ID: 199/210 (QueryID: test150_question147)
+Algorithm: lin_ucb, Diagonal: False
+Selected Model: qwen3-14b, QP: 8, CP: 2, BS: 1, Tokens: 261
+Reward: 0.8515 (Acc=1.00*w0.4, Ver=0.91*w0.4, eFLOPs=9.07e+14*w0.2)
+eFLOPs_raw: 9.0717e+14, Normalized eFLOPs: 0.5594, CSV_Line: 59552
+Avg Reward: 0.6287, Training Loss: 0, Cache Hit: True
+Answer: OfflineAnswer | Ground Truth: None
+--------------------------------------------------------------------------------
+Problem ID: 200/210 (QueryID: test150_question114)
+Algorithm: lin_ucb, Diagonal: False
+Selected Model: qwen3-14b, QP: 8, CP: 2, BS: 1, Tokens: 187
+Reward: 0.8867 (Acc=1.00*w0.4, Ver=0.97*w0.4, eFLOPs=5.05e+14*w0.2)
+eFLOPs_raw: 5.0527e+14, Normalized eFLOPs: 0.5062, CSV_Line: 58904
+Avg Reward: 0.6300, Training Loss: 0, Cache Hit: True
+Answer: OfflineAnswer | Ground Truth: None
+--------------------------------------------------------------------------------
+Problem ID: 201/210 (QueryID: test_aime_question27)
+Algorithm: lin_ucb, Diagonal: False
+Selected Model: qwen3-14b, QP: 1, CP: 2, BS: 1, Tokens: 3391
+Reward: 0.1644 (Acc=0.00*w0.4, Ver=0.19*w0.4, eFLOPs=9.48e+14*w0.2)
+eFLOPs_raw: 9.4814e+14, Normalized eFLOPs: 0.5635, CSV_Line: 2700
+Avg Reward: 0.6276, Training Loss: 0, Cache Hit: True
+Answer: OfflineAnswer | Ground Truth: None
+--------------------------------------------------------------------------------
+Problem ID: 202/210 (QueryID: test150_question129)
+Algorithm: lin_ucb, Diagonal: False
+Selected Model: qwen3-14b, QP: 8, CP: 2, BS: 1, Tokens: 574
+Reward: 0.8770 (Acc=1.00*w0.4, Ver=0.97*w0.4, eFLOPs=7.77e+14*w0.2)
+eFLOPs_raw: 7.7747e+14, Normalized eFLOPs: 0.5454, CSV_Line: 59192
+Avg Reward: 0.6289, Training Loss: 0, Cache Hit: True
+Answer: OfflineAnswer | Ground Truth: None
+--------------------------------------------------------------------------------
+Problem ID: 203/210 (QueryID: test_aime_question36)
+Algorithm: lin_ucb, Diagonal: False
+Selected Model: qwen3-14b, QP: 8, CP: 2, BS: 1, Tokens: 2832
+Reward: 0.6474 (Acc=1.00*w0.4, Ver=0.50*w0.4, eFLOPs=8.73e+15*w0.2)
+eFLOPs_raw: 8.7284e+15, Normalized eFLOPs: 0.7655, CSV_Line: 2870
+Avg Reward: 0.6290, Training Loss: 0, Cache Hit: True
+Answer: OfflineAnswer | Ground Truth: None
+--------------------------------------------------------------------------------
+Problem ID: 204/210 (QueryID: test_aime_question58)
+Algorithm: lin_ucb, Diagonal: False
+Selected Model: qwen3-14b, QP: 8, CP: 2, BS: 1, Tokens: 11982
+Reward: 0.2507 (Acc=0.00*w0.4, Ver=0.50*w0.4, eFLOPs=7.07e+15*w0.2)
+eFLOPs_raw: 7.0693e+15, Normalized eFLOPs: 0.7463, CSV_Line: 3304
+Avg Reward: 0.6271, Training Loss: 0, Cache Hit: True
+Answer: OfflineAnswer | Ground Truth: None
+--------------------------------------------------------------------------------
+Problem ID: 205/210 (QueryID: test150_question3)
+Algorithm: lin_ucb, Diagonal: False
+Selected Model: qwen3-14b, QP: 8, CP: 2, BS: 1, Tokens: 282
+Reward: 0.7046 (Acc=1.00*w0.4, Ver=0.53*w0.4, eFLOPs=7.38e+14*w0.2)
+eFLOPs_raw: 7.3802e+14, Normalized eFLOPs: 0.5407, CSV_Line: 59715
+Avg Reward: 0.6275, Training Loss: 0, Cache Hit: True
+Answer: OfflineAnswer | Ground Truth: None
+--------------------------------------------------------------------------------
+Problem ID: 206/210 (QueryID: test150_question11)
+Algorithm: lin_ucb, Diagonal: False
+Selected Model: qwen3-14b, QP: 8, CP: 2, BS: 1, Tokens: 344
+Reward: 0.8914 (Acc=1.00*w0.4, Ver=0.98*w0.4, eFLOPs=4.46e+14*w0.2)
+eFLOPs_raw: 4.4604e+14, Normalized eFLOPs: 0.4948, CSV_Line: 58635
+Avg Reward: 0.6288, Training Loss: 0, Cache Hit: True
+Answer: OfflineAnswer | Ground Truth: None
+--------------------------------------------------------------------------------
+Problem ID: 207/210 (QueryID: test150_question130)
+Algorithm: lin_ucb, Diagonal: False
+Selected Model: qwen3-14b, QP: 8, CP: 2, BS: 1, Tokens: 4469
+Reward: 0.4826 (Acc=0.00*w0.4, Ver=0.92*w0.4, eFLOPs=2.21e+14*w0.2)
+eFLOPs_raw: 2.2111e+14, Normalized eFLOPs: 0.4310, CSV_Line: 59212
+Avg Reward: 0.6281, Training Loss: 0, Cache Hit: True
+Answer: OfflineAnswer | Ground Truth: None
+--------------------------------------------------------------------------------
+Problem ID: 208/210 (QueryID: test_aime_question7)
+Algorithm: lin_ucb, Diagonal: False
+Selected Model: qwen3-14b, QP: 8, CP: 2, BS: 1, Tokens: 7298
+Reward: 0.4444 (Acc=0.00*w0.4, Ver=0.93*w0.4, eFLOPs=1.99e+15*w0.2)
+eFLOPs_raw: 1.9924e+15, Normalized eFLOPs: 0.6310, CSV_Line: 3358
+Avg Reward: 0.6272, Training Loss: 0, Cache Hit: True
+Answer: OfflineAnswer | Ground Truth: None
+--------------------------------------------------------------------------------
+Problem ID: 209/210 (QueryID: test_aime_question29)
+Algorithm: lin_ucb, Diagonal: False
+Selected Model: qwen3-14b, QP: 8, CP: 2, BS: 1, Tokens: 10568
+Reward: 0.2734 (Acc=0.00*w0.4, Ver=0.45*w0.4, eFLOPs=6.12e+14*w0.2)
+eFLOPs_raw: 6.1163e+14, Normalized eFLOPs: 0.5236, CSV_Line: 2726
+Avg Reward: 0.6255, Training Loss: 0, Cache Hit: True
+Answer: OfflineAnswer | Ground Truth: None
+--------------------------------------------------------------------------------
+Problem ID: 210/210 (QueryID: test150_question104)
+Algorithm: lin_ucb, Diagonal: False
+Selected Model: qwen3-32b, QP: 8, CP: 2, BS: 1, Tokens: 385
+Reward: 0.8737 (Acc=1.00*w0.4, Ver=0.98*w0.4, eFLOPs=1.36e+15*w0.2)
+eFLOPs_raw: 1.3649e+15, Normalized eFLOPs: 0.5966, CSV_Line: 100107
+Avg Reward: 0.6267, Training Loss: 0, Cache Hit: True
+Answer: OfflineAnswer | Ground Truth: None
+--------------------------------------------------------------------------------

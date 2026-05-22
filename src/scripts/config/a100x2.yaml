@@ -1,0 +1,52 @@
+# bash scripts/serve_models.sh scripts/config/a100x2.yaml
+# bash scripts/serve_models.sh scripts/config/a100x2.yaml --stop
+# bash scripts/serve_models.sh scripts/config/a100x2.yaml --status
+controller:
+  host: 0.0.0.0
+  port: 21001
+  worker_base_port: 10081
+
+reward_models:
+  - path: /wangxingyu/pub/Skywork-o1-Open-PRM-Qwen-2.5-1.5B
+    gpu: 1
+    gpu_memory_utilization: 0.07
+    max_model_length: 4096
+    swap_space: 16
+
+policy_models:
+  - path: /wangxingyu/pub/policy_models/Qwen3-32B
+    gpu: [0,1]
+    gpu_memory_utilization: 0.43
+    max_model_length: 4096
+    swap_space: 16
+  - path: /wangxingyu/pub/policy_models/Qwen3-14B
+    gpu: 0
+    gpu_memory_utilization: 0.37
+    max_model_length: 4096
+    swap_space: 16
+  - path: /wangxingyu/pub/policy_models/Qwen3-8B
+    gpu: 1
+    gpu_memory_utilization: 0.22
+    max_model_length: 4096
+    swap_space: 16
+  - path: /wangxingyu/pub/policy_models/Qwen3-4B
+    gpu: 1
+    gpu_memory_utilization: 0.13
+    max_model_length: 4096
+    swap_space: 16
+  - path: /wangxingyu/pub/policy_models/Qwen3-1.7B
+    gpu: 0
+    gpu_memory_utilization: 0.07
+    max_model_length: 4096
+    swap_space: 16
+  - path: /wangxingyu/pub/policy_models/Qwen3-0.6B
+    gpu: 1
+    gpu_memory_utilization: 0.07
+    max_model_length: 4096
+    swap_space: 16
+
+defaults:
+  python: /wangxingyu/miniconda3/envs/tts/bin/python
+  session_prefix: tts
+  max_model_length: 4096
+  swap_space: 16
