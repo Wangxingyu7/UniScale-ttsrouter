@@ -16,6 +16,12 @@ Apache-2.0-covered open source materials and remain subject to Apache-2.0 and
 applicable upstream notices. Other third-party materials remain subject to their
 own licenses. See [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md).
 
+Data files under `src/data/` are proprietary project data. They may not be used,
+copied, redistributed, benchmarked with, trained on, analyzed, cited, submitted
+in academic work, or used to generate experimental results without prior express
+written authorization from the copyright holder. See
+[DATA_USAGE.md](DATA_USAGE.md).
+
 See [NOTICE](NOTICE) for a short repository-level proprietary notice.
 
 ## Getting Started

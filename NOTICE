@@ -14,10 +14,16 @@ Apache-2.0-covered open source materials and remain subject to Apache-2.0 and
 applicable upstream notices. Other third-party materials remain subject to their
 own licenses.
 
+Data files under src/data/ are proprietary project data unless a file in that
+directory explicitly states otherwise. No permission is granted to use, copy,
+modify, redistribute, publish, benchmark with, train on, analyze, cite, submit
+academic work from, or generate experimental results from any src/data/ file
+without prior express written authorization from the copyright holder.
+
 Unauthorized academic use, including use in conference papers, journal papers,
 preprints, OpenReview submissions, arXiv submissions, reports, theses,
 supplementary materials, experiments, evaluations, ablations, or benchmark
 results, is prohibited for the proprietary portions.
 
-See LICENSE for the full proprietary terms and THIRD_PARTY_NOTICES.md for
-third-party notices.
+See LICENSE and DATA_USAGE.md for the full proprietary and data-use terms, and
+THIRD_PARTY_NOTICES.md for third-party notices.

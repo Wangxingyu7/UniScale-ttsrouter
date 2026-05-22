@@ -27,6 +27,12 @@ holder, except for:
 - other third-party dependencies, datasets, model weights, libraries, or files
   that are separately identified and governed by their own licenses.
 
+Data files under src/data/ are proprietary project data unless a file in that
+directory explicitly states otherwise. No permission is granted to use, copy,
+modify, redistribute, publish, benchmark with, train on, analyze, cite, submit
+academic work from, or generate experimental results from any src/data/ file
+without prior express written authorization from the copyright holder.
+
 2. No Permission Granted
 
 Public availability of this repository, or access to it through GitHub or any
@@ -53,6 +59,12 @@ authorization, you may not:
 - remove, alter, obscure, or misrepresent any copyright, authorship, provenance,
   or license notice.
 
+For src/data/ specifically, without prior express written authorization, you may
+not use any data file for training, evaluation, benchmarking, reproduction,
+analysis, ablation, publication, academic submission, commercial use, model
+development, dataset creation, dataset redistribution, or any derivative dataset
+or result.
+
 3. No Derivatives
 
 No derivative works of the proprietary portions are permitted without prior
@@ -70,6 +82,10 @@ any academic submission, including but not limited to conference papers, journal
 papers, workshop papers, technical reports, theses, dissertations, preprints,
 OpenReview submissions, arXiv submissions, or supplementary materials, without
 prior express written authorization from the copyright holder.
+
+This restriction expressly includes all proprietary data files under src/data/
+and any tables, metrics, charts, evaluations, claims, or experimental outputs
+derived from them.
 
 5. Confidentiality of Non-Public Materials
 
