@@ -1,1 +1,0 @@
-{"problem": "Compute 2+3", "solution": 5.0, "lm": "Qwen3-0.6B", "beam": {"QP": 1.0, "CP": 8.0, "BS": 4}}

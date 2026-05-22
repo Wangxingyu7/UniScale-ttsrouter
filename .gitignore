@@ -1,0 +1,26 @@
+# Python caches
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Runtime outputs and logs
+*.log
+nohup.out
+replay_timing.out
+*.out
+
+# Local environments
+.venv/
+venv/
+env/
+ENV/
+.env
+
+# OS/editor noise
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

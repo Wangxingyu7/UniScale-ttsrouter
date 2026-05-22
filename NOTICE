@@ -1,0 +1,23 @@
+ttsrouter-v1.1 - Proprietary Source-Available Notice
+
+This repository contains proprietary source-available project code and
+third-party/open-source materials. As a whole, it is not open source.
+
+For the original proprietary portions owned by Wangxingyu7, all rights are
+reserved. No permission is granted to use, copy, modify, distribute, publish,
+deploy, benchmark with, train on, submit academic work from, or create
+derivative works from those proprietary portions without prior express written
+authorization from the copyright holder.
+
+Files under src/envs/ and src/utils.py are based on or adapted from
+Apache-2.0-covered open source materials and remain subject to Apache-2.0 and
+applicable upstream notices. Other third-party materials remain subject to their
+own licenses.
+
+Unauthorized academic use, including use in conference papers, journal papers,
+preprints, OpenReview submissions, arXiv submissions, reports, theses,
+supplementary materials, experiments, evaluations, ablations, or benchmark
+results, is prohibited for the proprietary portions.
+
+See LICENSE for the full proprietary terms and THIRD_PARTY_NOTICES.md for
+third-party notices.

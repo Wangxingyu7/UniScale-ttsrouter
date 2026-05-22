@@ -1,0 +1,118 @@
+Source-Available Proprietary License
+
+Copyright (c) 2026 Wangxingyu7. All Rights Reserved.
+
+IMPORTANT: THIS SOFTWARE IS NOT OPEN SOURCE.
+
+Except for the Apache-2.0-covered files identified below and other third-party
+materials identified in this repository, this repository is made available for
+viewing only. No license is granted to use, copy, modify, merge, publish,
+distribute, sublicense, sell, host, deploy, benchmark with, train on, reproduce,
+create derivative works from, or otherwise exploit the proprietary portions of
+this repository without prior express written authorization from the copyright
+holder.
+
+1. Ownership
+
+All source code, scripts, datasets, documentation, experiment designs, routing
+logic, evaluation logic, benchmark materials, generated artifacts, and other
+materials in this repository are proprietary works owned by the copyright
+holder, except for:
+
+- files under src/envs/, which are based on or adapted from Apache-2.0-covered
+  open source materials and remain subject to Apache-2.0 and applicable
+  upstream notices;
+- src/utils.py, which is based on or adapted from Apache-2.0-covered open source
+  materials and remains subject to Apache-2.0 and applicable upstream notices;
+- other third-party dependencies, datasets, model weights, libraries, or files
+  that are separately identified and governed by their own licenses.
+
+2. No Permission Granted
+
+Public availability of this repository, or access to it through GitHub or any
+other platform, does not grant any permission, implied license, waiver, estoppel,
+or other right. You may view the repository only to determine whether to request
+authorization from the copyright holder.
+
+For the proprietary portions of this repository, without prior express written
+authorization, you may not:
+
+- use the materials for academic, research, commercial, personal, or internal
+  purposes;
+- run experiments, benchmarks, evaluations, ablations, reproductions, or model
+  training using the materials;
+- copy, fork outside the permissions required by GitHub platform operation,
+  mirror, scrape, archive, or redistribute the materials;
+- modify, translate, adapt, refactor, reimplement, or create derivative works
+  from the materials;
+- publish, submit, present, or rely on the materials or any results generated
+  from them in any paper, preprint, conference, journal, thesis, report, product,
+  service, or public communication;
+- deploy the materials as a service, API, tool, benchmark, model pipeline, or
+  hosted system;
+- remove, alter, obscure, or misrepresent any copyright, authorship, provenance,
+  or license notice.
+
+3. No Derivatives
+
+No derivative works of the proprietary portions are permitted without prior
+express written authorization. This prohibition includes modified source code,
+renamed or reformatted source code, ports to another language, reimplementations
+based on the structure or logic of the proprietary materials, experiment
+pipelines based on the proprietary materials, and works that use the proprietary
+materials to generate benchmark results or academic claims.
+
+4. Academic and Publication Restrictions
+
+The proprietary portions may not be used, modified, executed, benchmarked,
+cited as implementation support, or used to generate experimental results for
+any academic submission, including but not limited to conference papers, journal
+papers, workshop papers, technical reports, theses, dissertations, preprints,
+OpenReview submissions, arXiv submissions, or supplementary materials, without
+prior express written authorization from the copyright holder.
+
+5. Confidentiality of Non-Public Materials
+
+If you received any non-public copy of these materials through collaboration,
+employment, study, shared infrastructure, private communication, or accidental
+access, you must treat that copy as confidential unless the copyright holder
+explicitly states otherwise in writing. Such access does not grant permission to
+use, copy, modify, distribute, publish, or create derivative works.
+
+6. Third-Party Materials
+
+This license applies only to rights held by the copyright holder. It does not
+override Apache-2.0 or any other license that applies to third-party materials,
+including src/envs/ and src/utils.py. Third-party dependencies, datasets, model
+weights, libraries, or other materials remain subject to their own licenses and
+terms. Nothing in this license grants rights to third-party materials, and
+nothing in this license removes rights granted by applicable third-party
+licenses. See THIRD_PARTY_NOTICES.md for a non-exhaustive notice list.
+
+7. Enforcement
+
+Unauthorized use, copying, modification, distribution, publication, deployment,
+benchmarking, academic use, or derivative use of the proprietary portions is
+prohibited and may result in copyright enforcement, takedown requests, academic
+misconduct reports, and any other remedies available under applicable law or
+institutional policy.
+
+8. Requesting Permission
+
+To request permission, contact the repository owner and obtain explicit written
+authorization before using any material from this repository. Silence, delayed
+response, previous collaboration, repository access, or possession of a copy
+does not constitute permission.
+
+9. No Warranty
+
+THE MATERIALS ARE PROVIDED FOR AUTHORIZED REVIEW ONLY AND ARE PROVIDED "AS IS".
+TO THE MAXIMUM EXTENT PERMITTED BY LAW, THE COPYRIGHT HOLDER DISCLAIMS ALL
+WARRANTIES, EXPRESS OR IMPLIED, INCLUDING WARRANTIES OF MERCHANTABILITY, FITNESS
+FOR A PARTICULAR PURPOSE, TITLE, AND NON-INFRINGEMENT.
+
+10. Limitation of Liability
+
+TO THE MAXIMUM EXTENT PERMITTED BY LAW, THE COPYRIGHT HOLDER SHALL NOT BE LIABLE
+FOR ANY CLAIM, DAMAGES, OR OTHER LIABILITY ARISING FROM ACCESS TO, REVIEW OF, OR
+ANY AUTHORIZED OR UNAUTHORIZED USE OF THE MATERIALS.
