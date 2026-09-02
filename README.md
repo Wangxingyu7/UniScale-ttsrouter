@@ -207,6 +207,8 @@ curl -X POST http://localhost:7777/tts-router \
 {"method":"beam_search"}
 JSON
 
+```
+
 ## License
 
 This repository contains proprietary source-available project code and
@@ -231,4 +233,4 @@ written authorization from the copyright holder. See
 
 See [NOTICE](NOTICE) for a short repository-level proprietary notice.
 
-```
+
