@@ -1,28 +1,5 @@
 # ttsrouter-v1.1
 
-## License
-
-This repository contains proprietary source-available project code and
-third-party/open-source materials. As a whole, it is not open source.
-
-For the original proprietary portions owned by Wangxingyu7, all rights are
-reserved. No permission is granted to use, copy, modify, distribute, publish,
-deploy, benchmark with, train on, submit academic work from, or create
-derivative works from those proprietary portions without prior express written
-authorization from the copyright holder. See [LICENSE](LICENSE).
-
-Files under `src/envs/` and `src/utils.py` are based on or adapted from
-Apache-2.0-covered open source materials and remain subject to Apache-2.0 and
-applicable upstream notices. Other third-party materials remain subject to their
-own licenses. See [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md).
-
-Data files under `src/data/` are proprietary project data. They may not be used,
-copied, redistributed, benchmarked with, trained on, analyzed, cited, submitted
-in academic work, or used to generate experimental results without prior express
-written authorization from the copyright holder. See
-[DATA_USAGE.md](DATA_USAGE.md).
-
-See [NOTICE](NOTICE) for a short repository-level proprietary notice.
 
 ## Getting Started
 
@@ -229,4 +206,29 @@ curl -X POST http://localhost:7777/tts-router \
   -F "eval_config=@-;type=application/json" <<'JSON'
 {"method":"beam_search"}
 JSON
+
+## License
+
+This repository contains proprietary source-available project code and
+third-party/open-source materials. As a whole, it is not open source.
+
+For the original proprietary portions owned by Wangxingyu7, all rights are
+reserved. No permission is granted to use, copy, modify, distribute, publish,
+deploy, benchmark with, train on, submit academic work from, or create
+derivative works from those proprietary portions without prior express written
+authorization from the copyright holder. See [LICENSE](LICENSE).
+
+Files under `src/envs/` and `src/utils.py` are based on or adapted from
+Apache-2.0-covered open source materials and remain subject to Apache-2.0 and
+applicable upstream notices. Other third-party materials remain subject to their
+own licenses. See [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md).
+
+Data files under `src/data/` are proprietary project data. They may not be used,
+copied, redistributed, benchmarked with, trained on, analyzed, cited, submitted
+in academic work, or used to generate experimental results without prior express
+written authorization from the copyright holder. See
+[DATA_USAGE.md](DATA_USAGE.md).
+
+See [NOTICE](NOTICE) for a short repository-level proprietary notice.
+
 ```
